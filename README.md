@@ -29,8 +29,8 @@ Steps
 	* Build is now failing in Xamarin Studio Mac, 1 Error, Description:"Project Unavailable", Project:"MissingDependencyLibrary"
 	
 Log info:
-* For command line output in final example case see file: command_line_verbose_log.txt
-* For Xamarin Studio build output in final example case see file: Xamarin_Studio_verbose_log.txt
+* For command line output in final example case see file [command_line_verbose_log.txt](command_line_verbose_log.txt)
+* For Xamarin Studio build output in final example case see file: [Xamarin_Studio_verbose_log.txt](Xamarin_Studio_verbose_log.txt)
 * All IDEs and tools should be latest stable versions as of May 25th, 2016. Full information is below
 * Help -> About Microsoft Visual Studio -> Copy Info
 
