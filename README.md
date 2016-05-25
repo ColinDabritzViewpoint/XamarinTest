@@ -17,12 +17,11 @@ Steps
   * Again, No modifications made to SingleView project files
 * Reconfirmed builds on all platforms
 * Removed library project files only (no solution or main project changes)
-
-  
-TODOs:
+* Removed library project from building for all configurations
 * Confirmed build still works on Visual Studio Windows
-* Confirmed Build works from xbuild command line:
-    EXAMPLE HERE
+
+TODOs:
+* Confirmed Build works from xbuild command line
 * Build fails with EXAMPLE ERROR on Xamarin Studio Mac
 
 Log info:
