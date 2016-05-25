@@ -1,0 +1,886 @@
+XBuild Engine Version 12.0
+Mono, Version 4.2.4.0
+Copyright (C) 2005-2013 Various Mono authors
+Loading default tasks for ToolsVersion: 4.0 from /Library/Frameworks/Mono.framework/Versions/4.2.4/lib/mono/4.5/Microsoft.Common.tasks
+
+Build started 5/25/2016 1:59:50 PM.
+__________________________________________________
+/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj: Importing project /Library/Frameworks/Mono.framework/External/xbuild/Xamarin/iOS/Xamarin.iOS.CSharp.targets from extension path /Library/Frameworks/Mono.framework/External/xbuild
+/Library/Frameworks/Mono.framework/External/xbuild/Xamarin/iOS/Xamarin.iOS.CSharp.targets: Importing project /Library/Frameworks/Mono.framework/Versions/4.2.4/lib/mono/4.5/Microsoft.CSharp.targets 
+/Library/Frameworks/Mono.framework/Versions/4.2.4/lib/mono/4.5/Microsoft.CSharp.targets: Importing project /Library/Frameworks/Mono.framework/Versions/4.2.4/lib/mono/4.5/Microsoft.Common.targets 
+/Library/Frameworks/Mono.framework/External/xbuild/Xamarin/iOS/Xamarin.iOS.CSharp.targets: Importing project /Library/Frameworks/Mono.framework/External/xbuild/Xamarin/iOS/Xamarin.iOS.Common.targets 
+/Library/Frameworks/Mono.framework/External/xbuild/Xamarin/iOS/Xamarin.iOS.Common.targets: Importing project /Library/Frameworks/Mono.framework/External/xbuild/Xamarin/iOS/Xamarin.iOS.Common.props from extension path /Library/Frameworks/Mono.framework/External/xbuild
+/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.sln:  warning : Project file /Users/colin.dabritz/Documents/Git/XamarinTest/MissingDependencyLibrary/MissingDependencyLibrary.csproj referenced in the solution file, not found. Ignoring.
+Loading default tasks for ToolsVersion: 12.0 from /Library/Frameworks/Mono.framework/Versions/4.2.4/lib/mono/xbuild/12.0/bin/Microsoft.Common.tasks
+Project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.sln" (default target(s)):
+Building target "ValidateSolutionConfiguration" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.sln" ("/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.sln").
+	Target ValidateSolutionConfiguration:
+	Task "Message"
+		Using task Message from Microsoft.Build.Tasks.Message, Microsoft.Build.Tasks.v12.0, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+		Building solution configuration "Debug|iPhoneSimulator".
+	Done executing task "Message"
+	Done building target "ValidateSolutionConfiguration" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.sln".
+Done building target "ValidateSolutionConfiguration" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.sln" ("/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.sln").
+Building target "Build" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.sln" ("/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.sln").
+	Target Build:
+	Task "Warning"
+		Using task Warning from Microsoft.Build.Tasks.Warning, Microsoft.Build.Tasks.v12.0, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.sln:  warning : The project configuration for project 'MissingDependencyLibrary' corresponding to the solution configuration 'Debug|iPhoneSimulator' was not found.
+	Done executing task "Warning"
+	Task "MSBuild"
+		Using task MSBuild from Microsoft.Build.Tasks.MSBuild, Microsoft.Build.Tasks.v12.0, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+		Global Properties:
+			BuildingSolutionFile = true
+			Configuration = Debug
+			CurrentSolutionConfigurationContents = <SolutionConfiguration xmlns=""><ProjectConfiguration Project="{19FBD5DD-B9FE-463B-84AF-0BF57559CDC6}">Debug|iPhoneSimulator</ProjectConfiguration></SolutionConfiguration>
+			Platform = iPhoneSimulator
+			SolutionDir = /Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/
+			SolutionExt = .sln
+			SolutionFileName = SingleViewExample.sln
+			SolutionName = SingleViewExample
+			SolutionPath = /Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.sln
+		/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj: Importing project /Library/Frameworks/Mono.framework/External/xbuild/Xamarin/iOS/Xamarin.iOS.CSharp.targets from extension path /Library/Frameworks/Mono.framework/External/xbuild
+		/Library/Frameworks/Mono.framework/External/xbuild/Xamarin/iOS/Xamarin.iOS.CSharp.targets: Importing project /Library/Frameworks/Mono.framework/Versions/4.2.4/lib/mono/4.5/Microsoft.CSharp.targets 
+		/Library/Frameworks/Mono.framework/Versions/4.2.4/lib/mono/4.5/Microsoft.CSharp.targets: Importing project /Library/Frameworks/Mono.framework/Versions/4.2.4/lib/mono/4.5/Microsoft.Common.targets 
+		/Library/Frameworks/Mono.framework/External/xbuild/Xamarin/iOS/Xamarin.iOS.CSharp.targets: Importing project /Library/Frameworks/Mono.framework/External/xbuild/Xamarin/iOS/Xamarin.iOS.Common.targets 
+		/Library/Frameworks/Mono.framework/External/xbuild/Xamarin/iOS/Xamarin.iOS.Common.targets: Importing project /Library/Frameworks/Mono.framework/External/xbuild/Xamarin/iOS/Xamarin.iOS.Common.props from extension path /Library/Frameworks/Mono.framework/External/xbuild
+		Project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj" (default target(s)):
+		Building target "_ValidateEssentialProperties" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj" ("/Library/Frameworks/Mono.framework/Versions/4.2.4/lib/mono/4.5/Microsoft.Common.targets").
+		Done building target "_ValidateEssentialProperties" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj" ("/Library/Frameworks/Mono.framework/Versions/4.2.4/lib/mono/4.5/Microsoft.Common.targets").
+		Building target "Build" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj" ("/Library/Frameworks/Mono.framework/Versions/4.2.4/lib/mono/4.5/Microsoft.Common.targets").
+		Building target "BuildOnlySettings" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj" ("/Library/Frameworks/Mono.framework/Versions/4.2.4/lib/mono/4.5/Microsoft.Common.targets"); "Build" depends on it.
+		Done building target "BuildOnlySettings" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj" ("/Library/Frameworks/Mono.framework/Versions/4.2.4/lib/mono/4.5/Microsoft.Common.targets"); "Build" depends on it.
+		Building target "PrepareForBuild" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj" ("/Library/Frameworks/Mono.framework/Versions/4.2.4/lib/mono/4.5/Microsoft.Common.targets"); "Build" depends on it.
+		Building target "AssignLinkMetadata" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj" ("/Library/Frameworks/Mono.framework/Versions/4.2.4/lib/mono/4.5/Microsoft.Common.targets"); "PrepareForBuild" depends on it.
+		Done building target "AssignLinkMetadata" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj" ("/Library/Frameworks/Mono.framework/Versions/4.2.4/lib/mono/4.5/Microsoft.Common.targets"); "PrepareForBuild" depends on it.
+			Target PrepareForBuild:
+			Task "Message"
+				Using task Message from Microsoft.Build.Tasks.Message, Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+				Configuration: Debug Platform: iPhoneSimulator
+			Done executing task "Message"
+			Task "FindAppConfigFile"
+				Using task FindAppConfigFile from Microsoft.Build.Tasks.FindAppConfigFile, Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+			Done executing task "FindAppConfigFile"
+			Task "MakeDir"
+				Using task MakeDir from Microsoft.Build.Tasks.MakeDir, Xamarin.iOS.Tasks, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+				Created directory "obj/iPhoneSimulator/Debug/"
+			Done executing task "MakeDir"
+			Done building target "PrepareForBuild" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj".
+		Done building target "PrepareForBuild" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj" ("/Library/Frameworks/Mono.framework/Versions/4.2.4/lib/mono/4.5/Microsoft.Common.targets"); "Build" depends on it.
+		Building target "_CollectBundleResources" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj" ("/Library/Frameworks/Mono.framework/External/xbuild/Xamarin/iOS/Xamarin.iOS.Common.targets"); "Build" depends on it.
+		Building target "_CompileInterfaceDefinitions" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj" ("/Library/Frameworks/Mono.framework/External/xbuild/Xamarin/iOS/Xamarin.iOS.Common.targets"); "_CollectBundleResources" depends on it.
+		Building target "_DetectAppManifest" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj" ("/Library/Frameworks/Mono.framework/External/xbuild/Xamarin/iOS/Xamarin.iOS.Common.targets"); "_CompileInterfaceDefinitions" depends on it.
+			Target _DetectAppManifest:
+			Task "FindItemWithLogicalName"
+				Using task FindItemWithLogicalName from Xamarin.MacDev.Tasks.FindItemWithLogicalName, Xamarin.MacDev.Tasks, Version=1.0.5969.31770, Culture=neutral, PublicKeyToken=null
+				FindItemWithLogicalName Task
+				  Items:
+				    GettingStarted.Xamarin
+				    Info.plist
+				  LogicalName: Info.plist
+				  ProjectDir: /Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample
+				  ResourcePrefix: Resources
+				  Info.plist found at: Info.plist
+			Done executing task "FindItemWithLogicalName"
+			Done building target "_DetectAppManifest" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj".
+		Done building target "_DetectAppManifest" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj" ("/Library/Frameworks/Mono.framework/External/xbuild/Xamarin/iOS/Xamarin.iOS.Common.targets"); "_CompileInterfaceDefinitions" depends on it.
+		Building target "_DetectSdkLocations" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj" ("/Library/Frameworks/Mono.framework/External/xbuild/Xamarin/iOS/Xamarin.iOS.Common.targets"); "_CompileInterfaceDefinitions" depends on it.
+		Building target "_ComputeTargetArchitectures" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj" ("/Library/Frameworks/Mono.framework/External/xbuild/Xamarin/iOS/Xamarin.iOS.Common.targets"); "_DetectSdkLocations" depends on it.
+		Done building target "_ComputeTargetArchitectures" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj" ("/Library/Frameworks/Mono.framework/External/xbuild/Xamarin/iOS/Xamarin.iOS.Common.targets"); "_DetectSdkLocations" depends on it.
+			Target _DetectSdkLocations:
+			Task "DetectSdkLocations"
+				Using task DetectSdkLocations from Xamarin.iOS.Tasks.DetectSdkLocations, Xamarin.iOS.Tasks, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+				  DeveloperRoot: /Applications/Xcode.app/Contents/Developer
+				  DevicePlatform: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform
+				  GetPlatformPath: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform
+				  Searching for 'SDK Usr directory' in '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr'
+				  Searching for 'SDK Usr directory' in '/Applications/Xcode.app/Contents/Developer/usr'
+				  Searching for 'SDK bin directory' in '/Applications/Xcode.app/Contents/Developer/usr/bin'
+				DetectSdkLocations Task
+				  TargetFrameworkIdentifier: Xamarin.iOS
+				  TargetArchitectures: i386
+				  SdkVersion: 9.3
+				  XamarinSdkRoot: /Library/Frameworks/Xamarin.iOS.framework/Versions/Current
+				  SdkRoot: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.3.sdk
+				  SdkDevPath: /Applications/Xcode.app/Contents/Developer
+				  SdkUsrPath: /Applications/Xcode.app/Contents/Developer/usr
+				  SdkPlatform: iPhoneSimulator
+				  SdkIsSimulator: True
+			Done executing task "DetectSdkLocations"
+			Done building target "_DetectSdkLocations" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj".
+		Done building target "_DetectSdkLocations" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj" ("/Library/Frameworks/Mono.framework/External/xbuild/Xamarin/iOS/Xamarin.iOS.Common.targets"); "_CompileInterfaceDefinitions" depends on it.
+		Building target "_BeforeCoreCompileInterfaceDefinitions" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj" ("/Library/Frameworks/Mono.framework/External/xbuild/Xamarin/iOS/Xamarin.iOS.Common.targets"); "_CompileInterfaceDefinitions" depends on it.
+			Target _BeforeCoreCompileInterfaceDefinitions:
+			Target _BeforeCoreCompileInterfaceDefinitions needs to be built as output file 'obj/iPhoneSimulator/Debug/ibtool/_BundleResourceWithLogicalName.items' does not exist.
+			Task "Delete"
+				Using task Delete from Microsoft.Build.Tasks.Delete, Xamarin.iOS.Tasks, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+			Done executing task "Delete"
+			Done building target "_BeforeCoreCompileInterfaceDefinitions" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj".
+		Done building target "_BeforeCoreCompileInterfaceDefinitions" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj" ("/Library/Frameworks/Mono.framework/External/xbuild/Xamarin/iOS/Xamarin.iOS.Common.targets"); "_CompileInterfaceDefinitions" depends on it.
+		Building target "_ReadCoreCompileInterfaceDefinitions" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj" ("/Library/Frameworks/Mono.framework/External/xbuild/Xamarin/iOS/Xamarin.iOS.Common.targets"); "_CompileInterfaceDefinitions" depends on it.
+		Done building target "_ReadCoreCompileInterfaceDefinitions" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj" ("/Library/Frameworks/Mono.framework/External/xbuild/Xamarin/iOS/Xamarin.iOS.Common.targets"); "_CompileInterfaceDefinitions" depends on it.
+		Building target "_CoreCompileInterfaceDefinitions" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj" ("/Library/Frameworks/Mono.framework/External/xbuild/Xamarin/iOS/Xamarin.iOS.Common.targets"); "_CompileInterfaceDefinitions" depends on it.
+			Target _CoreCompileInterfaceDefinitions:
+			Target _CoreCompileInterfaceDefinitions needs to be built as output file 'obj/iPhoneSimulator/Debug/ibtool/_BundleResourceWithLogicalName.items' does not exist.
+			Task "IBTool"
+				Using task IBTool from Xamarin.iOS.Tasks.IBTool, Xamarin.iOS.Tasks, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+				IBTool Task
+				  AppManifest: Info.plist
+				  InterfaceDefinitions:
+				    Main.storyboard
+				    Resources/LaunchScreen.xib
+				  IntermediateOutputPath: obj/iPhoneSimulator/Debug/
+				  IsWatchApp: False
+				  IsWatch2App: False
+				  ProjectDir: /Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample
+				  ResourcePrefix: Resources
+				  SdkBinPath: /Applications/Xcode.app/Contents/Developer/usr/bin
+				  SdkPlatform: iPhoneSimulator
+				  SdkRoot: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.3.sdk
+				  SdkVersion: 9.3
+				Tool /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool execution started with arguments: --errors --warnings --notices --output-format xml1 --minimum-deployment-target 9.3 --target-device iphone --target-device ipad --auto-activate-custom-fonts --sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.3.sdk --compilation-directory /Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/obj/iPhoneSimulator/Debug/ibtool /Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/Main.storyboard
+				Tool /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool execution finished (exit code = 0).
+				Tool /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool execution started with arguments: --errors --warnings --notices --output-format xml1 --minimum-deployment-target 9.3 --target-device iphone --target-device ipad --auto-activate-custom-fonts --sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.3.sdk --compilation-directory /Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/obj/iPhoneSimulator/Debug/ibtool /Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/Resources/LaunchScreen.xib
+				Tool /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool execution finished (exit code = 0).
+				  BundleResources Output:
+				    obj/iPhoneSimulator/Debug/ibtool/LaunchScreen.nib
+				    obj/iPhoneSimulator/Debug/ibtool/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib
+				    obj/iPhoneSimulator/Debug/ibtool/Main.storyboardc/Info.plist
+				    obj/iPhoneSimulator/Debug/ibtool/Main.storyboardc/UIViewController-BYZ-38-t0r.nib
+				  OutputManifests Output:
+				    obj/iPhoneSimulator/Debug/ibtool-manifests/Main.storyboardc
+				    obj/iPhoneSimulator/Debug/ibtool-manifests/LaunchScreen.nib
+			Done executing task "IBTool"
+			Task "WriteItemsToFile"
+				Using task WriteItemsToFile from Xamarin.MacDev.Tasks.WriteItemsToFile, Xamarin.MacDev.Tasks, Version=1.0.5969.31770, Culture=neutral, PublicKeyToken=null
+			Done executing task "WriteItemsToFile"
+			Done building target "_CoreCompileInterfaceDefinitions" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj".
+		Done building target "_CoreCompileInterfaceDefinitions" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj" ("/Library/Frameworks/Mono.framework/External/xbuild/Xamarin/iOS/Xamarin.iOS.Common.targets"); "_CompileInterfaceDefinitions" depends on it.
+		Done building target "_CompileInterfaceDefinitions" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj" ("/Library/Frameworks/Mono.framework/External/xbuild/Xamarin/iOS/Xamarin.iOS.Common.targets"); "_CollectBundleResources" depends on it.
+		Building target "_CompileImageAssets" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj" ("/Library/Frameworks/Mono.framework/External/xbuild/Xamarin/iOS/Xamarin.iOS.Common.targets"); "_CollectBundleResources" depends on it.
+		Building target "_BeforeCoreCompileImageAssets" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj" ("/Library/Frameworks/Mono.framework/External/xbuild/Xamarin/iOS/Xamarin.iOS.Common.targets"); "_CompileImageAssets" depends on it.
+			Target _BeforeCoreCompileImageAssets:
+			No input files were specified for target _BeforeCoreCompileImageAssets, skipping.
+			Done building target "_BeforeCoreCompileImageAssets" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj".
+		Done building target "_BeforeCoreCompileImageAssets" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj" ("/Library/Frameworks/Mono.framework/External/xbuild/Xamarin/iOS/Xamarin.iOS.Common.targets"); "_CompileImageAssets" depends on it.
+		Building target "_ReadCompileImageAssets" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj" ("/Library/Frameworks/Mono.framework/External/xbuild/Xamarin/iOS/Xamarin.iOS.Common.targets"); "_CompileImageAssets" depends on it.
+		Done building target "_ReadCompileImageAssets" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj" ("/Library/Frameworks/Mono.framework/External/xbuild/Xamarin/iOS/Xamarin.iOS.Common.targets"); "_CompileImageAssets" depends on it.
+		Building target "_CoreCompileImageAssets" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj" ("/Library/Frameworks/Mono.framework/External/xbuild/Xamarin/iOS/Xamarin.iOS.Common.targets"); "_CompileImageAssets" depends on it.
+			Target _CoreCompileImageAssets:
+			No input files were specified for target _CoreCompileImageAssets, skipping.
+			Done building target "_CoreCompileImageAssets" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj".
+		Done building target "_CoreCompileImageAssets" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj" ("/Library/Frameworks/Mono.framework/External/xbuild/Xamarin/iOS/Xamarin.iOS.Common.targets"); "_CompileImageAssets" depends on it.
+		Done building target "_CompileImageAssets" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj" ("/Library/Frameworks/Mono.framework/External/xbuild/Xamarin/iOS/Xamarin.iOS.Common.targets"); "_CollectBundleResources" depends on it.
+		Building target "_CompileColladaAssets" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj" ("/Library/Frameworks/Mono.framework/External/xbuild/Xamarin/iOS/Xamarin.iOS.Common.targets"); "_CollectBundleResources" depends on it.
+		Building target "_CollectColladaAssets" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj" ("/Library/Frameworks/Mono.framework/External/xbuild/Xamarin/iOS/Xamarin.iOS.Common.targets"); "_CompileColladaAssets" depends on it.
+			Target _CollectColladaAssets:
+			Task "CollectBundleResources"
+				Using task CollectBundleResources from Xamarin.MacDev.Tasks.CollectBundleResources, Xamarin.MacDev.Tasks, Version=1.0.5969.31770, Culture=neutral, PublicKeyToken=null
+				CollectBundleResources Task
+				  BundleResources: <null>
+				  OptimizePropertyLists: False
+				  OptimizePNGs: False
+				  ProjectDir: /Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample
+				  ResourcePrefix: Resources
+			Done executing task "CollectBundleResources"
+			Done building target "_CollectColladaAssets" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj".
+		Done building target "_CollectColladaAssets" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj" ("/Library/Frameworks/Mono.framework/External/xbuild/Xamarin/iOS/Xamarin.iOS.Common.targets"); "_CompileColladaAssets" depends on it.
+		Building target "_CoreCompileColladaAssets" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj" ("/Library/Frameworks/Mono.framework/External/xbuild/Xamarin/iOS/Xamarin.iOS.Common.targets"); "_CompileColladaAssets" depends on it.
+			Target _CoreCompileColladaAssets:
+			No input files were specified for target _CoreCompileColladaAssets, skipping.
+			Done building target "_CoreCompileColladaAssets" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj".
+		Done building target "_CoreCompileColladaAssets" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj" ("/Library/Frameworks/Mono.framework/External/xbuild/Xamarin/iOS/Xamarin.iOS.Common.targets"); "_CompileColladaAssets" depends on it.
+		Done building target "_CompileColladaAssets" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj" ("/Library/Frameworks/Mono.framework/External/xbuild/Xamarin/iOS/Xamarin.iOS.Common.targets"); "_CollectBundleResources" depends on it.
+		Building target "_CompileSceneKitAssets" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj" ("/Library/Frameworks/Mono.framework/External/xbuild/Xamarin/iOS/Xamarin.iOS.Common.targets"); "_CollectBundleResources" depends on it.
+		Building target "_BeforeCoreCompileSceneKitAssets" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj" ("/Library/Frameworks/Mono.framework/External/xbuild/Xamarin/iOS/Xamarin.iOS.Common.targets"); "_CompileSceneKitAssets" depends on it.
+			Target _BeforeCoreCompileSceneKitAssets:
+			No input files were specified for target _BeforeCoreCompileSceneKitAssets, skipping.
+			Done building target "_BeforeCoreCompileSceneKitAssets" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj".
+		Done building target "_BeforeCoreCompileSceneKitAssets" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj" ("/Library/Frameworks/Mono.framework/External/xbuild/Xamarin/iOS/Xamarin.iOS.Common.targets"); "_CompileSceneKitAssets" depends on it.
+		Building target "_ReadCoreCompileSceneKitAssets" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj" ("/Library/Frameworks/Mono.framework/External/xbuild/Xamarin/iOS/Xamarin.iOS.Common.targets"); "_CompileSceneKitAssets" depends on it.
+		Done building target "_ReadCoreCompileSceneKitAssets" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj" ("/Library/Frameworks/Mono.framework/External/xbuild/Xamarin/iOS/Xamarin.iOS.Common.targets"); "_CompileSceneKitAssets" depends on it.
+		Building target "_CoreCompileSceneKitAssets" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj" ("/Library/Frameworks/Mono.framework/External/xbuild/Xamarin/iOS/Xamarin.iOS.Common.targets"); "_CompileSceneKitAssets" depends on it.
+			Target _CoreCompileSceneKitAssets:
+			No input files were specified for target _CoreCompileSceneKitAssets, skipping.
+			Done building target "_CoreCompileSceneKitAssets" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj".
+		Done building target "_CoreCompileSceneKitAssets" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj" ("/Library/Frameworks/Mono.framework/External/xbuild/Xamarin/iOS/Xamarin.iOS.Common.targets"); "_CompileSceneKitAssets" depends on it.
+		Done building target "_CompileSceneKitAssets" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj" ("/Library/Frameworks/Mono.framework/External/xbuild/Xamarin/iOS/Xamarin.iOS.Common.targets"); "_CollectBundleResources" depends on it.
+		Building target "_CompileTextureAtlases" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj" ("/Library/Frameworks/Mono.framework/External/xbuild/Xamarin/iOS/Xamarin.iOS.Common.targets"); "_CollectBundleResources" depends on it.
+		Building target "_BeforeCompileTextureAtlases" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj" ("/Library/Frameworks/Mono.framework/External/xbuild/Xamarin/iOS/Xamarin.iOS.Common.targets"); "_CompileTextureAtlases" depends on it.
+			Target _BeforeCompileTextureAtlases:
+			No input files were specified for target _BeforeCompileTextureAtlases, skipping.
+			Done building target "_BeforeCompileTextureAtlases" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj".
+		Done building target "_BeforeCompileTextureAtlases" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj" ("/Library/Frameworks/Mono.framework/External/xbuild/Xamarin/iOS/Xamarin.iOS.Common.targets"); "_CompileTextureAtlases" depends on it.
+		Building target "_ReadCoreCompileTextureAtlases" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj" ("/Library/Frameworks/Mono.framework/External/xbuild/Xamarin/iOS/Xamarin.iOS.Common.targets"); "_CompileTextureAtlases" depends on it.
+		Done building target "_ReadCoreCompileTextureAtlases" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj" ("/Library/Frameworks/Mono.framework/External/xbuild/Xamarin/iOS/Xamarin.iOS.Common.targets"); "_CompileTextureAtlases" depends on it.
+		Building target "_CoreCompileTextureAtlases" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj" ("/Library/Frameworks/Mono.framework/External/xbuild/Xamarin/iOS/Xamarin.iOS.Common.targets"); "_CompileTextureAtlases" depends on it.
+			Target _CoreCompileTextureAtlases:
+			No input files were specified for target _CoreCompileTextureAtlases, skipping.
+			Done building target "_CoreCompileTextureAtlases" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj".
+		Done building target "_CoreCompileTextureAtlases" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj" ("/Library/Frameworks/Mono.framework/External/xbuild/Xamarin/iOS/Xamarin.iOS.Common.targets"); "_CompileTextureAtlases" depends on it.
+		Done building target "_CompileTextureAtlases" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj" ("/Library/Frameworks/Mono.framework/External/xbuild/Xamarin/iOS/Xamarin.iOS.Common.targets"); "_CollectBundleResources" depends on it.
+			Target _CollectBundleResources:
+			Task "CollectBundleResources"
+				Using task CollectBundleResources from Xamarin.MacDev.Tasks.CollectBundleResources, Xamarin.MacDev.Tasks, Version=1.0.5969.31770, Culture=neutral, PublicKeyToken=null
+				CollectBundleResources Task
+				  BundleResources:
+				    Entitlements.plist
+				  OptimizePropertyLists: True
+				  OptimizePNGs: True
+				  ProjectDir: /Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample
+				  ResourcePrefix: Resources
+			Done executing task "CollectBundleResources"
+			Done building target "_CollectBundleResources" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj".
+		Done building target "_CollectBundleResources" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj" ("/Library/Frameworks/Mono.framework/External/xbuild/Xamarin/iOS/Xamarin.iOS.Common.targets"); "Build" depends on it.
+		Building target "_OptimizePngImages" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj" ("/Library/Frameworks/Mono.framework/External/xbuild/Xamarin/iOS/Xamarin.iOS.Common.targets"); "Build" depends on it.
+		Building target "_CollectPngImages" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj" ("/Library/Frameworks/Mono.framework/External/xbuild/Xamarin/iOS/Xamarin.iOS.Common.targets"); "_OptimizePngImages" depends on it.
+		Done building target "_CollectPngImages" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj" ("/Library/Frameworks/Mono.framework/External/xbuild/Xamarin/iOS/Xamarin.iOS.Common.targets"); "_OptimizePngImages" depends on it.
+		Building target "_CoreOptimizePngImages" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj" ("/Library/Frameworks/Mono.framework/External/xbuild/Xamarin/iOS/Xamarin.iOS.Common.targets"); "_OptimizePngImages" depends on it.
+			Target _CoreOptimizePngImages:
+			No output files were specified for target _CoreOptimizePngImages, skipping.
+			Done building target "_CoreOptimizePngImages" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj".
+		Done building target "_CoreOptimizePngImages" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj" ("/Library/Frameworks/Mono.framework/External/xbuild/Xamarin/iOS/Xamarin.iOS.Common.targets"); "_OptimizePngImages" depends on it.
+		Building target "_AfterCoreOptimizePngImages" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj" ("/Library/Frameworks/Mono.framework/External/xbuild/Xamarin/iOS/Xamarin.iOS.Common.targets"); "_OptimizePngImages" depends on it.
+		Target _AfterCoreOptimizePngImages skipped due to false condition: '@(_PngImage)' != ''
+		Done building target "_AfterCoreOptimizePngImages" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj" ("/Library/Frameworks/Mono.framework/External/xbuild/Xamarin/iOS/Xamarin.iOS.Common.targets"); "_OptimizePngImages" depends on it.
+		Done building target "_OptimizePngImages" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj" ("/Library/Frameworks/Mono.framework/External/xbuild/Xamarin/iOS/Xamarin.iOS.Common.targets"); "Build" depends on it.
+		Building target "_OptimizePropertyLists" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj" ("/Library/Frameworks/Mono.framework/External/xbuild/Xamarin/iOS/Xamarin.iOS.Common.targets"); "Build" depends on it.
+		Building target "_CollectPropertyLists" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj" ("/Library/Frameworks/Mono.framework/External/xbuild/Xamarin/iOS/Xamarin.iOS.Common.targets"); "_OptimizePropertyLists" depends on it.
+			Target _CollectPropertyLists:
+			Task "CreateItem"
+				Using task CreateItem from Microsoft.Build.Tasks.CreateItem, Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+			Done executing task "CreateItem"
+			Done building target "_CollectPropertyLists" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj".
+		Done building target "_CollectPropertyLists" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj" ("/Library/Frameworks/Mono.framework/External/xbuild/Xamarin/iOS/Xamarin.iOS.Common.targets"); "_OptimizePropertyLists" depends on it.
+		Building target "_CoreOptimizePropertyLists" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj" ("/Library/Frameworks/Mono.framework/External/xbuild/Xamarin/iOS/Xamarin.iOS.Common.targets"); "_OptimizePropertyLists" depends on it.
+			Target _CoreOptimizePropertyLists:
+			Target _CoreOptimizePropertyLists needs to be built as output file 'obj/iPhoneSimulator/Debug/optimized/Entitlements.plist' does not exist.
+			Task "OptimizePropertyList"
+				Using task OptimizePropertyList from Xamarin.iOS.Tasks.OptimizePropertyList, Xamarin.iOS.Tasks, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+				OptimizePropertyList Task
+				  Input: Entitlements.plist
+				  Output: obj/iPhoneSimulator/Debug/optimized/Entitlements.plist
+				Tool /usr/bin/plutil execution started with arguments: -convert binary1 -o obj/iPhoneSimulator/Debug/optimized/Entitlements.plist Entitlements.plist 
+				Environment variables being passed to the tool:
+				Tool /usr/bin/plutil execution finished.
+			Done executing task "OptimizePropertyList"
+			Done building target "_CoreOptimizePropertyLists" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj".
+		Done building target "_CoreOptimizePropertyLists" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj" ("/Library/Frameworks/Mono.framework/External/xbuild/Xamarin/iOS/Xamarin.iOS.Common.targets"); "_OptimizePropertyLists" depends on it.
+		Building target "_AfterCoreOptimizePropertyLists" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj" ("/Library/Frameworks/Mono.framework/External/xbuild/Xamarin/iOS/Xamarin.iOS.Common.targets"); "_OptimizePropertyLists" depends on it.
+			Target _AfterCoreOptimizePropertyLists:
+			Task "CreateItem"
+				Using task CreateItem from Microsoft.Build.Tasks.CreateItem, Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+			Done executing task "CreateItem"
+			Done building target "_AfterCoreOptimizePropertyLists" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj".
+		Done building target "_AfterCoreOptimizePropertyLists" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj" ("/Library/Frameworks/Mono.framework/External/xbuild/Xamarin/iOS/Xamarin.iOS.Common.targets"); "_OptimizePropertyLists" depends on it.
+		Done building target "_OptimizePropertyLists" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj" ("/Library/Frameworks/Mono.framework/External/xbuild/Xamarin/iOS/Xamarin.iOS.Common.targets"); "Build" depends on it.
+		Building target "_OptimizeLocalizationFiles" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj" ("/Library/Frameworks/Mono.framework/External/xbuild/Xamarin/iOS/Xamarin.iOS.Common.targets"); "Build" depends on it.
+		Building target "_CollectLocalizationFiles" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj" ("/Library/Frameworks/Mono.framework/External/xbuild/Xamarin/iOS/Xamarin.iOS.Common.targets"); "_OptimizeLocalizationFiles" depends on it.
+		Done building target "_CollectLocalizationFiles" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj" ("/Library/Frameworks/Mono.framework/External/xbuild/Xamarin/iOS/Xamarin.iOS.Common.targets"); "_OptimizeLocalizationFiles" depends on it.
+		Building target "_CoreOptimizeLocalizationFiles" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj" ("/Library/Frameworks/Mono.framework/External/xbuild/Xamarin/iOS/Xamarin.iOS.Common.targets"); "_OptimizeLocalizationFiles" depends on it.
+			Target _CoreOptimizeLocalizationFiles:
+			No input files were specified for target _CoreOptimizeLocalizationFiles, skipping.
+			Done building target "_CoreOptimizeLocalizationFiles" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj".
+		Done building target "_CoreOptimizeLocalizationFiles" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj" ("/Library/Frameworks/Mono.framework/External/xbuild/Xamarin/iOS/Xamarin.iOS.Common.targets"); "_OptimizeLocalizationFiles" depends on it.
+		Building target "_AfterCoreOptimizeLocalizationFiles" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj" ("/Library/Frameworks/Mono.framework/External/xbuild/Xamarin/iOS/Xamarin.iOS.Common.targets"); "_OptimizeLocalizationFiles" depends on it.
+		Target _AfterCoreOptimizeLocalizationFiles skipped due to false condition: '@(_LocalizationFile)' != ''
+		Done building target "_AfterCoreOptimizeLocalizationFiles" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj" ("/Library/Frameworks/Mono.framework/External/xbuild/Xamarin/iOS/Xamarin.iOS.Common.targets"); "_OptimizeLocalizationFiles" depends on it.
+		Done building target "_OptimizeLocalizationFiles" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj" ("/Library/Frameworks/Mono.framework/External/xbuild/Xamarin/iOS/Xamarin.iOS.Common.targets"); "Build" depends on it.
+		Building target "_PackLibraryResources" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj" ("/Library/Frameworks/Mono.framework/External/xbuild/Xamarin/iOS/Xamarin.iOS.Common.targets"); "Build" depends on it.
+		Target _PackLibraryResources skipped due to false condition: '$(_CanOutputAppBundle)' == 'false'
+		Done building target "_PackLibraryResources" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj" ("/Library/Frameworks/Mono.framework/External/xbuild/Xamarin/iOS/Xamarin.iOS.Common.targets"); "Build" depends on it.
+		Building target "_UnpackLibraryResources" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj" ("/Library/Frameworks/Mono.framework/External/xbuild/Xamarin/iOS/Xamarin.iOS.Common.targets"); "Build" depends on it.
+		Building target "ResolveReferences" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj" ("/Library/Frameworks/Mono.framework/Versions/4.2.4/lib/mono/4.5/Microsoft.Common.targets"); "_UnpackLibraryResources" depends on it.
+		Building target "_SeparateAppExtensionReferences" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj" ("/Library/Frameworks/Mono.framework/External/xbuild/Xamarin/iOS/Xamarin.iOS.Common.targets"); "ResolveReferences" depends on it.
+		Done building target "_SeparateAppExtensionReferences" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj" ("/Library/Frameworks/Mono.framework/External/xbuild/Xamarin/iOS/Xamarin.iOS.Common.targets"); "ResolveReferences" depends on it.
+		Building target "_SeparateWatchAppReferences" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj" ("/Library/Frameworks/Mono.framework/External/xbuild/Xamarin/iOS/Xamarin.iOS.Common.targets"); "ResolveReferences" depends on it.
+		Done building target "_SeparateWatchAppReferences" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj" ("/Library/Frameworks/Mono.framework/External/xbuild/Xamarin/iOS/Xamarin.iOS.Common.targets"); "ResolveReferences" depends on it.
+		Building target "BeforeResolveReferences" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj" ("/Library/Frameworks/Mono.framework/Versions/4.2.4/lib/mono/4.5/Microsoft.Common.targets"); "ResolveReferences" depends on it.
+		Done building target "BeforeResolveReferences" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj" ("/Library/Frameworks/Mono.framework/Versions/4.2.4/lib/mono/4.5/Microsoft.Common.targets"); "ResolveReferences" depends on it.
+		Building target "ResolveProjectReferences" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj" ("/Library/Frameworks/Mono.framework/Versions/4.2.4/lib/mono/4.5/Microsoft.Common.targets"); "ResolveReferences" depends on it.
+		Building target "SplitProjectReferencesByExistent" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj" ("/Library/Frameworks/Mono.framework/Versions/4.2.4/lib/mono/4.5/Microsoft.Common.targets"); "ResolveProjectReferences" depends on it.
+		Building target "AssignProjectConfiguration" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj" ("/Library/Frameworks/Mono.framework/Versions/4.2.4/lib/mono/4.5/Microsoft.Common.targets"); "SplitProjectReferencesByExistent" depends on it.
+		Target AssignProjectConfiguration skipped due to false condition: '@(ProjectReference)' != ''
+		Done building target "AssignProjectConfiguration" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj" ("/Library/Frameworks/Mono.framework/Versions/4.2.4/lib/mono/4.5/Microsoft.Common.targets"); "SplitProjectReferencesByExistent" depends on it.
+		Done building target "SplitProjectReferencesByExistent" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj" ("/Library/Frameworks/Mono.framework/Versions/4.2.4/lib/mono/4.5/Microsoft.Common.targets"); "ResolveProjectReferences" depends on it.
+		Done building target "ResolveProjectReferences" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj" ("/Library/Frameworks/Mono.framework/Versions/4.2.4/lib/mono/4.5/Microsoft.Common.targets"); "ResolveReferences" depends on it.
+		Building target "ResolveAssemblyReferences" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj" ("/Library/Frameworks/Mono.framework/Versions/4.2.4/lib/mono/4.5/Microsoft.Common.targets"); "ResolveReferences" depends on it.
+		Building target "GetFrameworkPaths" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj" ("/Library/Frameworks/Mono.framework/Versions/4.2.4/lib/mono/4.5/Microsoft.Common.targets"); "ResolveAssemblyReferences" depends on it.
+		Target GetFrameworkPaths skipped due to false condition: '$(TargetFrameworkIdentifier)' == '' or '$(TargetFrameworkIdentifier)' == '.NETFramework'
+		Done building target "GetFrameworkPaths" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj" ("/Library/Frameworks/Mono.framework/Versions/4.2.4/lib/mono/4.5/Microsoft.Common.targets"); "ResolveAssemblyReferences" depends on it.
+		Building target "GetReferenceAssemblyPaths" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj" ("/Library/Frameworks/Mono.framework/Versions/4.2.4/lib/mono/4.5/Microsoft.Common.targets"); "ResolveAssemblyReferences" depends on it.
+			Target GetReferenceAssemblyPaths:
+			Task "CreateProperty"
+				Using task CreateProperty from Microsoft.Build.Tasks.CreateProperty, Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+			Done executing task "CreateProperty"
+			Task "GetReferenceAssemblyPaths"
+				Using task GetReferenceAssemblyPaths from Microsoft.Build.Tasks.GetReferenceAssemblyPaths, Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+				Looking for framework 'Xamarin.iOS,Version=v1.0' in root path '/Library/Frameworks/Mono.framework/External/xbuild-frameworks'
+				Found framework definition list '/Library/Frameworks/Mono.framework/External/xbuild-frameworks/Xamarin.iOS/v1.0/RedistList/FrameworkList.xml' for framework 'Xamarin.iOS,Version=v1.0'
+			Done executing task "GetReferenceAssemblyPaths"
+			Done building target "GetReferenceAssemblyPaths" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj".
+		Done building target "GetReferenceAssemblyPaths" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj" ("/Library/Frameworks/Mono.framework/Versions/4.2.4/lib/mono/4.5/Microsoft.Common.targets"); "ResolveAssemblyReferences" depends on it.
+		Building target "_AddCorlibReference" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj" ("/Library/Frameworks/Mono.framework/Versions/4.2.4/lib/mono/4.5/Microsoft.CSharp.targets"); "ResolveAssemblyReferences" depends on it.
+		Done building target "_AddCorlibReference" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj" ("/Library/Frameworks/Mono.framework/Versions/4.2.4/lib/mono/4.5/Microsoft.CSharp.targets"); "ResolveAssemblyReferences" depends on it.
+			Target ResolveAssemblyReferences:
+			Task "CreateItem"
+				Using task CreateItem from Microsoft.Build.Tasks.CreateItem, Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+			Done executing task "CreateItem"
+			Task "CreateItem"
+				Using task CreateItem from Microsoft.Build.Tasks.CreateItem, Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+			Done executing task "CreateItem"
+			Task "ResolveAssemblyReference"
+				Using task ResolveAssemblyReference from Microsoft.Build.Tasks.ResolveAssemblyReference, Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+				TargetFrameworkDirectories:
+					/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS
+					/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/
+				SearchPaths:
+					{CandidateAssemblyFiles}
+					{HintPathFromItem}
+					{TargetFrameworkDirectory}
+					{PkgConfig}
+					{GAC}
+					{RawFileName}
+					bin/iPhoneSimulator/Debug/
+				Primary Reference System
+					Reference System resolved to /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.dll. CopyLocal = False
+					Reference found at search path {TargetFrameworkDirectory}
+				For searchpath {CandidateAssemblyFiles}
+				Warning: {CandidateAssemblyFiles} not supported currently
+				For searchpath {HintPathFromItem}
+				HintPath attribute not found
+				For searchpath {TargetFrameworkDirectory}
+				Primary Reference System.Xml
+					Reference System.Xml resolved to /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.Xml.dll. CopyLocal = False
+					Reference found at search path {TargetFrameworkDirectory}
+				For searchpath {CandidateAssemblyFiles}
+				Warning: {CandidateAssemblyFiles} not supported currently
+				For searchpath {HintPathFromItem}
+				HintPath attribute not found
+				For searchpath {TargetFrameworkDirectory}
+				Primary Reference Xamarin.iOS
+					Reference Xamarin.iOS resolved to /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Xamarin.iOS.dll. CopyLocal = False
+					Reference found at search path {TargetFrameworkDirectory}
+				For searchpath {CandidateAssemblyFiles}
+				Warning: {CandidateAssemblyFiles} not supported currently
+				For searchpath {HintPathFromItem}
+				HintPath attribute not found
+				For searchpath {TargetFrameworkDirectory}
+				Primary Reference System.Core
+					Reference System.Core resolved to /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.Core.dll. CopyLocal = False
+					Reference found at search path {TargetFrameworkDirectory}
+				For searchpath {CandidateAssemblyFiles}
+				Warning: {CandidateAssemblyFiles} not supported currently
+				For searchpath {HintPathFromItem}
+				HintPath attribute not found
+				For searchpath {TargetFrameworkDirectory}
+				Primary Reference from AssemblyFiles /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/mscorlib.dll
+			Done executing task "ResolveAssemblyReference"
+			Done building target "ResolveAssemblyReferences" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj".
+		Done building target "ResolveAssemblyReferences" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj" ("/Library/Frameworks/Mono.framework/Versions/4.2.4/lib/mono/4.5/Microsoft.Common.targets"); "ResolveReferences" depends on it.
+		Building target "AfterResolveReferences" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj" ("/Library/Frameworks/Mono.framework/Versions/4.2.4/lib/mono/4.5/Microsoft.Common.targets"); "ResolveReferences" depends on it.
+		Done building target "AfterResolveReferences" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj" ("/Library/Frameworks/Mono.framework/Versions/4.2.4/lib/mono/4.5/Microsoft.Common.targets"); "ResolveReferences" depends on it.
+		Building target "ImplicitlyExpandDesignTimeFacades" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj" ("/Library/Frameworks/Mono.framework/External/xbuild/Xamarin/iOS/Xamarin.iOS.Common.targets"); "ResolveReferences" depends on it.
+		Done building target "ImplicitlyExpandDesignTimeFacades" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj" ("/Library/Frameworks/Mono.framework/External/xbuild/Xamarin/iOS/Xamarin.iOS.Common.targets"); "ResolveReferences" depends on it.
+		Done building target "ResolveReferences" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj" ("/Library/Frameworks/Mono.framework/Versions/4.2.4/lib/mono/4.5/Microsoft.Common.targets"); "_UnpackLibraryResources" depends on it.
+			Target _UnpackLibraryResources:
+			Task "UnpackLibraryResources"
+				Using task UnpackLibraryResources from Xamarin.MacDev.Tasks.UnpackLibraryResources, Xamarin.MacDev.Tasks, Version=1.0.5969.31770, Culture=neutral, PublicKeyToken=null
+				UnpackLibraryResources Task
+				  Prefix: monotouch
+				  IntermediateOutputPath: obj/iPhoneSimulator/Debug/
+				  NoOverwrite:
+				    obj/iPhoneSimulator/Debug/ibtool/LaunchScreen.nib
+				    obj/iPhoneSimulator/Debug/ibtool/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib
+				    obj/iPhoneSimulator/Debug/ibtool/Main.storyboardc/Info.plist
+				    obj/iPhoneSimulator/Debug/ibtool/Main.storyboardc/UIViewController-BYZ-38-t0r.nib
+				    obj/iPhoneSimulator/Debug/optimized/Entitlements.plist
+				  ReferencedLibraries:
+				    /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.dll
+				    /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.Xml.dll
+				    /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Xamarin.iOS.dll
+				    /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.Core.dll
+				    /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/mscorlib.dll
+				  Skipping framework assembly: /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.dll
+				  Skipping framework assembly: /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.Xml.dll
+				  Skipping framework assembly: /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Xamarin.iOS.dll
+				  Skipping framework assembly: /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.Core.dll
+				  Inspecting assembly: /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/mscorlib.dll
+			Done executing task "UnpackLibraryResources"
+			Done building target "_UnpackLibraryResources" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj".
+		Done building target "_UnpackLibraryResources" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj" ("/Library/Frameworks/Mono.framework/External/xbuild/Xamarin/iOS/Xamarin.iOS.Common.targets"); "Build" depends on it.
+		Building target "BeforeBuild" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj" ("/Library/Frameworks/Mono.framework/Versions/4.2.4/lib/mono/4.5/Microsoft.Common.targets"); "Build" depends on it.
+		Done building target "BeforeBuild" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj" ("/Library/Frameworks/Mono.framework/Versions/4.2.4/lib/mono/4.5/Microsoft.Common.targets"); "Build" depends on it.
+		Building target "CoreBuild" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj" ("/Library/Frameworks/Mono.framework/Versions/4.2.4/lib/mono/4.5/Microsoft.Common.targets"); "Build" depends on it.
+		Building target "GetFrameworkPaths" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj" ("/Library/Frameworks/Mono.framework/Versions/4.2.4/lib/mono/4.5/Microsoft.Common.targets"); "CoreBuild" depends on it.
+		Target GetFrameworkPaths skipped due to false condition: '$(TargetFrameworkIdentifier)' == '' or '$(TargetFrameworkIdentifier)' == '.NETFramework'
+		Done building target "GetFrameworkPaths" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj" ("/Library/Frameworks/Mono.framework/Versions/4.2.4/lib/mono/4.5/Microsoft.Common.targets"); "CoreBuild" depends on it.
+		Building target "PreBuildEvent" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj" ("/Library/Frameworks/Mono.framework/Versions/4.2.4/lib/mono/4.5/Microsoft.Common.targets"); "CoreBuild" depends on it.
+		Target PreBuildEvent skipped due to false condition: '$(PreBuildEvent)' != ''
+		Done building target "PreBuildEvent" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj" ("/Library/Frameworks/Mono.framework/Versions/4.2.4/lib/mono/4.5/Microsoft.Common.targets"); "CoreBuild" depends on it.
+		Building target "CopyFilesMarkedCopyLocal" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj" ("/Library/Frameworks/Mono.framework/Versions/4.2.4/lib/mono/4.5/Microsoft.Common.targets"); "CoreBuild" depends on it.
+			Target CopyFilesMarkedCopyLocal:
+			Task "Copy"
+				Using task Copy from Microsoft.Build.Tasks.Copy, Xamarin.iOS.Tasks, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+			Done executing task "Copy"
+			Done building target "CopyFilesMarkedCopyLocal" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj".
+		Done building target "CopyFilesMarkedCopyLocal" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj" ("/Library/Frameworks/Mono.framework/Versions/4.2.4/lib/mono/4.5/Microsoft.Common.targets"); "CoreBuild" depends on it.
+		Building target "PrepareResources" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj" ("/Library/Frameworks/Mono.framework/Versions/4.2.4/lib/mono/4.5/Microsoft.Common.targets"); "CoreBuild" depends on it.
+		Building target "AssignTargetPaths" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj" ("/Library/Frameworks/Mono.framework/Versions/4.2.4/lib/mono/4.5/Microsoft.Common.targets"); "PrepareResources" depends on it.
+			Target AssignTargetPaths:
+			Task "AssignTargetPath"
+				Using task AssignTargetPath from Microsoft.Build.Tasks.AssignTargetPath, Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+			Done executing task "AssignTargetPath"
+			Task "AssignTargetPath"
+				Using task AssignTargetPath from Microsoft.Build.Tasks.AssignTargetPath, Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+			Done executing task "AssignTargetPath"
+			Task "AssignTargetPath"
+				Using task AssignTargetPath from Microsoft.Build.Tasks.AssignTargetPath, Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+			Done executing task "AssignTargetPath"
+			Done building target "AssignTargetPaths" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj".
+		Done building target "AssignTargetPaths" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj" ("/Library/Frameworks/Mono.framework/Versions/4.2.4/lib/mono/4.5/Microsoft.Common.targets"); "PrepareResources" depends on it.
+		Building target "SplitResourcesByCulture" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj" ("/Library/Frameworks/Mono.framework/Versions/4.2.4/lib/mono/4.5/Microsoft.Common.targets"); "PrepareResources" depends on it.
+			Target SplitResourcesByCulture:
+			Task "AssignCulture"
+				Using task AssignCulture from Microsoft.Build.Tasks.AssignCulture, Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+			Done executing task "AssignCulture"
+			Task "CreateItem"
+				Using task CreateItem from Microsoft.Build.Tasks.CreateItem, Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+			Done executing task "CreateItem"
+			Task "CreateItem"
+				Using task CreateItem from Microsoft.Build.Tasks.CreateItem, Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+			Done executing task "CreateItem"
+			Done building target "SplitResourcesByCulture" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj".
+		Done building target "SplitResourcesByCulture" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj" ("/Library/Frameworks/Mono.framework/Versions/4.2.4/lib/mono/4.5/Microsoft.Common.targets"); "PrepareResources" depends on it.
+		Building target "CreateManifestResourceNames" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj" ("/Library/Frameworks/Mono.framework/Versions/4.2.4/lib/mono/4.5/Microsoft.CSharp.targets"); "PrepareResources" depends on it.
+		Done building target "CreateManifestResourceNames" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj" ("/Library/Frameworks/Mono.framework/Versions/4.2.4/lib/mono/4.5/Microsoft.CSharp.targets"); "PrepareResources" depends on it.
+		Building target "CopyNonResxEmbeddedResources" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj" ("/Library/Frameworks/Mono.framework/Versions/4.2.4/lib/mono/4.5/Microsoft.Common.targets"); "PrepareResources" depends on it.
+		Target CopyNonResxEmbeddedResources skipped due to false condition: '@(NonResxWithCulture)' != '' or '@(NonResxWithNoCulture)' != '' or '@(ManifestNonResxWithCulture)' != '' or '@(ManifestNonResxWithNoCulture)' != ''
+		Done building target "CopyNonResxEmbeddedResources" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj" ("/Library/Frameworks/Mono.framework/Versions/4.2.4/lib/mono/4.5/Microsoft.Common.targets"); "PrepareResources" depends on it.
+		Building target "GenerateResources" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj" ("/Library/Frameworks/Mono.framework/Versions/4.2.4/lib/mono/4.5/Microsoft.Common.targets"); "PrepareResources" depends on it.
+		Done building target "GenerateResources" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj" ("/Library/Frameworks/Mono.framework/Versions/4.2.4/lib/mono/4.5/Microsoft.Common.targets"); "PrepareResources" depends on it.
+		Building target "GenerateSatelliteAssemblies" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj" ("/Library/Frameworks/Mono.framework/Versions/4.2.4/lib/mono/4.5/Microsoft.Common.targets"); "PrepareResources" depends on it.
+			Target GenerateSatelliteAssemblies:
+			No input files were specified for target GenerateSatelliteAssemblies, skipping.
+			Done building target "GenerateSatelliteAssemblies" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj".
+		Done building target "GenerateSatelliteAssemblies" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj" ("/Library/Frameworks/Mono.framework/Versions/4.2.4/lib/mono/4.5/Microsoft.Common.targets"); "PrepareResources" depends on it.
+		Building target "CompileLicxFiles" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj" ("/Library/Frameworks/Mono.framework/Versions/4.2.4/lib/mono/4.5/Microsoft.Common.targets"); "PrepareResources" depends on it.
+		Target CompileLicxFiles skipped due to false condition: '@(LicxFiles)' != ''
+		Done building target "CompileLicxFiles" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj" ("/Library/Frameworks/Mono.framework/Versions/4.2.4/lib/mono/4.5/Microsoft.Common.targets"); "PrepareResources" depends on it.
+		Done building target "PrepareResources" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj" ("/Library/Frameworks/Mono.framework/Versions/4.2.4/lib/mono/4.5/Microsoft.Common.targets"); "CoreBuild" depends on it.
+		Building target "Compile" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj" ("/Library/Frameworks/Mono.framework/Versions/4.2.4/lib/mono/4.5/Microsoft.Common.targets"); "CoreBuild" depends on it.
+		Building target "GenerateTargetFrameworkMonikerAttribute" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj" ("/Library/Frameworks/Mono.framework/Versions/4.2.4/lib/mono/4.5/Microsoft.Common.targets"); "Compile" depends on it.
+			Target GenerateTargetFrameworkMonikerAttribute:
+			Target GenerateTargetFrameworkMonikerAttribute needs to be built as output file 'obj/iPhoneSimulator/Debug/Xamarin.iOS,Version=v1.0.AssemblyAttribute.cs' does not exist.
+			Task "WriteLinesToFile"
+				Using task WriteLinesToFile from Microsoft.Build.Tasks.WriteLinesToFile, Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+			Done executing task "WriteLinesToFile"
+			Done building target "GenerateTargetFrameworkMonikerAttribute" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj".
+		Done building target "GenerateTargetFrameworkMonikerAttribute" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj" ("/Library/Frameworks/Mono.framework/Versions/4.2.4/lib/mono/4.5/Microsoft.Common.targets"); "Compile" depends on it.
+		Building target "BeforeCompile" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj" ("/Library/Frameworks/Mono.framework/Versions/4.2.4/lib/mono/4.5/Microsoft.Common.targets"); "Compile" depends on it.
+		Done building target "BeforeCompile" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj" ("/Library/Frameworks/Mono.framework/Versions/4.2.4/lib/mono/4.5/Microsoft.Common.targets"); "Compile" depends on it.
+		Building target "_TimestampBeforeCompile" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj" ("/Library/Frameworks/Mono.framework/Versions/4.2.4/lib/mono/4.5/Microsoft.Common.targets"); "Compile" depends on it.
+		Target _TimestampBeforeCompile skipped due to false condition: '$(RunPostBuildEvent)' == 'OnOutputUpdated'
+		Done building target "_TimestampBeforeCompile" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj" ("/Library/Frameworks/Mono.framework/Versions/4.2.4/lib/mono/4.5/Microsoft.Common.targets"); "Compile" depends on it.
+		Building target "CoreCompile" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj" ("/Library/Frameworks/Mono.framework/Versions/4.2.4/lib/mono/4.5/Microsoft.CSharp.targets"); "Compile" depends on it.
+			Target CoreCompile:
+			Target CoreCompile needs to be built as output file 'obj/iPhoneSimulator/Debug/SingleViewExample.exe' does not exist.
+			Task "Csc"
+				Using task Csc from Microsoft.Build.Tasks.Csc, Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+				Tool /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/bin/smcs execution started with arguments: /noconfig /debug:full /debug+ /optimize- /out:obj/iPhoneSimulator/Debug/SingleViewExample.exe Main.cs AppDelegate.cs Properties/AssemblyInfo.cs ViewController.designer.cs ViewController.cs obj/iPhoneSimulator/Debug/Xamarin.iOS,Version=v1.0.AssemblyAttribute.cs /target:exe /define:"__UNIFIED__;__MOBILE__;__IOS__;DEBUG" /nostdlib /reference:/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.dll /reference:/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.Xml.dll /reference:/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Xamarin.iOS.dll /reference:/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.Core.dll /reference:/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/mscorlib.dll /warn:4
+				Environment variables being passed to the tool:
+				Tool /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/bin/smcs execution finished.
+			Done executing task "Csc"
+			Done building target "CoreCompile" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj".
+		Done building target "CoreCompile" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj" ("/Library/Frameworks/Mono.framework/Versions/4.2.4/lib/mono/4.5/Microsoft.CSharp.targets"); "Compile" depends on it.
+		Building target "_TimestampAfterCompile" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj" ("/Library/Frameworks/Mono.framework/Versions/4.2.4/lib/mono/4.5/Microsoft.Common.targets"); "Compile" depends on it.
+		Target _TimestampAfterCompile skipped due to false condition: '$(RunPostBuildEvent)' == 'OnOutputUpdated'
+		Done building target "_TimestampAfterCompile" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj" ("/Library/Frameworks/Mono.framework/Versions/4.2.4/lib/mono/4.5/Microsoft.Common.targets"); "Compile" depends on it.
+		Building target "AfterCompile" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj" ("/Library/Frameworks/Mono.framework/Versions/4.2.4/lib/mono/4.5/Microsoft.Common.targets"); "Compile" depends on it.
+		Done building target "AfterCompile" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj" ("/Library/Frameworks/Mono.framework/Versions/4.2.4/lib/mono/4.5/Microsoft.Common.targets"); "Compile" depends on it.
+		Done building target "Compile" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj" ("/Library/Frameworks/Mono.framework/Versions/4.2.4/lib/mono/4.5/Microsoft.Common.targets"); "CoreBuild" depends on it.
+		Building target "PrepareForRun" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj" ("/Library/Frameworks/Mono.framework/Versions/4.2.4/lib/mono/4.5/Microsoft.Common.targets"); "CoreBuild" depends on it.
+		Building target "DeployOutputFiles" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj" ("/Library/Frameworks/Mono.framework/Versions/4.2.4/lib/mono/4.5/Microsoft.Common.targets"); "PrepareForRun" depends on it.
+		Building target "_CopyDeployFilesToOutputDirectory" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj" ("/Library/Frameworks/Mono.framework/Versions/4.2.4/lib/mono/4.5/Microsoft.Common.targets"); "DeployOutputFiles" depends on it.
+		Building target "GetCopyToOutputDirectoryItems" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj" ("/Library/Frameworks/Mono.framework/Versions/4.2.4/lib/mono/4.5/Microsoft.Common.targets"); "_CopyDeployFilesToOutputDirectory" depends on it.
+		Done building target "GetCopyToOutputDirectoryItems" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj" ("/Library/Frameworks/Mono.framework/Versions/4.2.4/lib/mono/4.5/Microsoft.Common.targets"); "_CopyDeployFilesToOutputDirectory" depends on it.
+		Building target "_CopyDeployFilesToOutputDirectoryAlways" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj" ("/Library/Frameworks/Mono.framework/Versions/4.2.4/lib/mono/4.5/Microsoft.Common.targets"); "_CopyDeployFilesToOutputDirectory" depends on it.
+		Target _CopyDeployFilesToOutputDirectoryAlways skipped due to false condition: '@(ItemsToCopyToOutputDirectoryAlways)' != ''
+		Done building target "_CopyDeployFilesToOutputDirectoryAlways" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj" ("/Library/Frameworks/Mono.framework/Versions/4.2.4/lib/mono/4.5/Microsoft.Common.targets"); "_CopyDeployFilesToOutputDirectory" depends on it.
+		Building target "_CopyDeployFilesToOutputDirectoryPreserveNewest" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj" ("/Library/Frameworks/Mono.framework/Versions/4.2.4/lib/mono/4.5/Microsoft.Common.targets"); "_CopyDeployFilesToOutputDirectory" depends on it.
+		Target _CopyDeployFilesToOutputDirectoryPreserveNewest skipped due to false condition: '@(ItemsToCopyToOutputDirectoryPreserveNewest)' != ''
+		Done building target "_CopyDeployFilesToOutputDirectoryPreserveNewest" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj" ("/Library/Frameworks/Mono.framework/Versions/4.2.4/lib/mono/4.5/Microsoft.Common.targets"); "_CopyDeployFilesToOutputDirectory" depends on it.
+		Done building target "_CopyDeployFilesToOutputDirectory" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj" ("/Library/Frameworks/Mono.framework/Versions/4.2.4/lib/mono/4.5/Microsoft.Common.targets"); "DeployOutputFiles" depends on it.
+		Building target "_CopyAppConfigFile" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj" ("/Library/Frameworks/Mono.framework/Versions/4.2.4/lib/mono/4.5/Microsoft.Common.targets"); "DeployOutputFiles" depends on it.
+		Target _CopyAppConfigFile skipped due to false condition: '@(AppConfigWithTargetPath)' != ''
+		Done building target "_CopyAppConfigFile" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj" ("/Library/Frameworks/Mono.framework/Versions/4.2.4/lib/mono/4.5/Microsoft.Common.targets"); "DeployOutputFiles" depends on it.
+			Target DeployOutputFiles:
+			Task "Copy"
+				Using task Copy from Microsoft.Build.Tasks.Copy, Xamarin.iOS.Tasks, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+				Copying file from '/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/obj/iPhoneSimulator/Debug/SingleViewExample.exe.mdb' to '/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/bin/iPhoneSimulator/Debug/SingleViewExample.exe.mdb'
+			Done executing task "Copy"
+			Task "Copy"
+				Using task Copy from Microsoft.Build.Tasks.Copy, Xamarin.iOS.Tasks, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+				Copying file from '/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/obj/iPhoneSimulator/Debug/SingleViewExample.exe' to '/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/bin/iPhoneSimulator/Debug/SingleViewExample.exe'
+			Done executing task "Copy"
+			Done building target "DeployOutputFiles" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj".
+		Done building target "DeployOutputFiles" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj" ("/Library/Frameworks/Mono.framework/Versions/4.2.4/lib/mono/4.5/Microsoft.Common.targets"); "PrepareForRun" depends on it.
+		Done building target "PrepareForRun" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj" ("/Library/Frameworks/Mono.framework/Versions/4.2.4/lib/mono/4.5/Microsoft.Common.targets"); "CoreBuild" depends on it.
+		Building target "_RecordCleanFile" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj" ("/Library/Frameworks/Mono.framework/Versions/4.2.4/lib/mono/4.5/Microsoft.Common.targets"); "CoreBuild" depends on it.
+		Building target "_GetCompileOutputsForClean" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj" ("/Library/Frameworks/Mono.framework/Versions/4.2.4/lib/mono/4.5/Microsoft.Common.targets"); "_RecordCleanFile" depends on it.
+			Target _GetCompileOutputsForClean:
+			Task "CreateItem"
+				Using task CreateItem from Microsoft.Build.Tasks.CreateItem, Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+			Done executing task "CreateItem"
+			Task "CreateItem"
+				Using task CreateItem from Microsoft.Build.Tasks.CreateItem, Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+			Done executing task "CreateItem"
+			Done building target "_GetCompileOutputsForClean" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj".
+		Done building target "_GetCompileOutputsForClean" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj" ("/Library/Frameworks/Mono.framework/Versions/4.2.4/lib/mono/4.5/Microsoft.Common.targets"); "_RecordCleanFile" depends on it.
+			Target _RecordCleanFile:
+			Task "ReadLinesFromFile"
+				Using task ReadLinesFromFile from Microsoft.Build.Tasks.ReadLinesFromFile, Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+			Done executing task "ReadLinesFromFile"
+			Task "FindUnderPath"
+				Using task FindUnderPath from Microsoft.Build.Tasks.FindUnderPath, Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+			Done executing task "FindUnderPath"
+			Task "RemoveDuplicates"
+				Using task RemoveDuplicates from Microsoft.Build.Tasks.RemoveDuplicates, Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+			Done executing task "RemoveDuplicates"
+			Task "WriteLinesToFile"
+				Using task WriteLinesToFile from Microsoft.Build.Tasks.WriteLinesToFile, Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+			Done executing task "WriteLinesToFile"
+			Done building target "_RecordCleanFile" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj".
+		Done building target "_RecordCleanFile" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj" ("/Library/Frameworks/Mono.framework/Versions/4.2.4/lib/mono/4.5/Microsoft.Common.targets"); "CoreBuild" depends on it.
+		Building target "PostBuildEvent" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj" ("/Library/Frameworks/Mono.framework/Versions/4.2.4/lib/mono/4.5/Microsoft.Common.targets"); "CoreBuild" depends on it.
+		Target PostBuildEvent skipped due to false condition: '$(PostBuildEvent)' != '' and
+					('$(RunPostBuildEvent)' != 'OnOutputUpdated' or
+					  '$(_AssemblyModifiedTimeBeforeCompile)' != '$(_AssemblyModifiedTimeAfterCompile)')
+		Done building target "PostBuildEvent" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj" ("/Library/Frameworks/Mono.framework/Versions/4.2.4/lib/mono/4.5/Microsoft.Common.targets"); "CoreBuild" depends on it.
+		Done building target "CoreBuild" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj" ("/Library/Frameworks/Mono.framework/Versions/4.2.4/lib/mono/4.5/Microsoft.Common.targets"); "Build" depends on it.
+		Building target "AfterBuild" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj" ("/Library/Frameworks/Mono.framework/Versions/4.2.4/lib/mono/4.5/Microsoft.Common.targets"); "Build" depends on it.
+		Done building target "AfterBuild" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj" ("/Library/Frameworks/Mono.framework/Versions/4.2.4/lib/mono/4.5/Microsoft.Common.targets"); "Build" depends on it.
+		Building target "_CleanUploaded" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj" ("/Library/Frameworks/Mono.framework/External/xbuild/Xamarin/iOS/Xamarin.iOS.Common.targets"); "Build" depends on it.
+		Building target "_GenerateBundleName" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj" ("/Library/Frameworks/Mono.framework/External/xbuild/Xamarin/iOS/Xamarin.iOS.Common.targets"); "_CleanUploaded" depends on it.
+		Done building target "_GenerateBundleName" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj" ("/Library/Frameworks/Mono.framework/External/xbuild/Xamarin/iOS/Xamarin.iOS.Common.targets"); "_CleanUploaded" depends on it.
+			Target _CleanUploaded:
+			Task "Delete"
+				Using task Delete from Microsoft.Build.Tasks.Delete, Xamarin.iOS.Tasks, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+			Done executing task "Delete"
+			Done building target "_CleanUploaded" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj".
+		Done building target "_CleanUploaded" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj" ("/Library/Frameworks/Mono.framework/External/xbuild/Xamarin/iOS/Xamarin.iOS.Common.targets"); "Build" depends on it.
+		Building target "_CreateAppBundle" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj" ("/Library/Frameworks/Mono.framework/External/xbuild/Xamarin/iOS/Xamarin.iOS.Common.targets"); "Build" depends on it.
+		Building target "_DetectSigningIdentity" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj" ("/Library/Frameworks/Mono.framework/External/xbuild/Xamarin/iOS/Xamarin.iOS.Common.targets"); "_CreateAppBundle" depends on it.
+			Target _DetectSigningIdentity:
+			Task "DetectSigningIdentity"
+				Using task DetectSigningIdentity from Xamarin.iOS.Tasks.DetectSigningIdentity, Xamarin.iOS.Tasks, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+				DetectSigningIdentity Task
+				  AppBundleName: SingleViewExample
+				  AppManifest: Info.plist
+				  RequireCodesigning: False
+				  SdkPlatform: iPhoneSimulator
+				  SdkIsSimulator: True
+				  ProvisioningProfile: <null>
+				  SigningKey: <null>
+			Done executing task "DetectSigningIdentity"
+			Done building target "_DetectSigningIdentity" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj".
+		Done building target "_DetectSigningIdentity" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj" ("/Library/Frameworks/Mono.framework/External/xbuild/Xamarin/iOS/Xamarin.iOS.Common.targets"); "_CreateAppBundle" depends on it.
+		Building target "_CopyResourcesToBundle" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj" ("/Library/Frameworks/Mono.framework/External/xbuild/Xamarin/iOS/Xamarin.iOS.Common.targets"); "_CreateAppBundle" depends on it.
+		Building target "_ComputeBundleResourceOutputPaths" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj" ("/Library/Frameworks/Mono.framework/External/xbuild/Xamarin/iOS/Xamarin.iOS.Common.targets"); "_CopyResourcesToBundle" depends on it.
+			Target _ComputeBundleResourceOutputPaths:
+			Task "ComputeBundleResourceOutputPaths"
+				Using task ComputeBundleResourceOutputPaths from Xamarin.MacDev.Tasks.ComputeBundleResourceOutputPaths, Xamarin.MacDev.Tasks, Version=1.0.5969.31770, Culture=neutral, PublicKeyToken=null
+				ComputeBundleResourceOutputPaths Task
+				  AppBundleDir: bin/iPhoneSimulator/Debug/SingleViewExample.app
+				  BundleIdentifier: com.companyname.SingleViewExample
+				  BundleResources:
+				    obj/iPhoneSimulator/Debug/ibtool/LaunchScreen.nib
+				    obj/iPhoneSimulator/Debug/ibtool/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib
+				    obj/iPhoneSimulator/Debug/ibtool/Main.storyboardc/Info.plist
+				    obj/iPhoneSimulator/Debug/ibtool/Main.storyboardc/UIViewController-BYZ-38-t0r.nib
+				    obj/iPhoneSimulator/Debug/optimized/Entitlements.plist
+				  IntermediateOutputPath: obj/iPhoneSimulator/Debug/
+				  OutputPath: bin/iPhoneSimulator/Debug/
+			Done executing task "ComputeBundleResourceOutputPaths"
+			Done building target "_ComputeBundleResourceOutputPaths" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj".
+		Done building target "_ComputeBundleResourceOutputPaths" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj" ("/Library/Frameworks/Mono.framework/External/xbuild/Xamarin/iOS/Xamarin.iOS.Common.targets"); "_CopyResourcesToBundle" depends on it.
+			Target _CopyResourcesToBundle:
+			Target _CopyResourcesToBundle needs to be built as output file 'bin/iPhoneSimulator/Debug/SingleViewExample.app/LaunchScreen.nib' does not exist.
+			Task "SmartCopy"
+				Using task SmartCopy from Xamarin.MacDev.Tasks.SmartCopy, Xamarin.MacDev.Tasks, Version=1.0.5969.31770, Culture=neutral, PublicKeyToken=null
+				SmartCopy Task
+				  DestinationFiles:
+				    bin/iPhoneSimulator/Debug/SingleViewExample.app/LaunchScreen.nib
+				    bin/iPhoneSimulator/Debug/SingleViewExample.app/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib
+				    bin/iPhoneSimulator/Debug/SingleViewExample.app/Main.storyboardc/Info.plist
+				    bin/iPhoneSimulator/Debug/SingleViewExample.app/Main.storyboardc/UIViewController-BYZ-38-t0r.nib
+				    bin/iPhoneSimulator/Debug/SingleViewExample.app/Entitlements.plist
+				  DestinationFolder: 
+				  SourceFiles:
+				    obj/iPhoneSimulator/Debug/ibtool/LaunchScreen.nib
+				    obj/iPhoneSimulator/Debug/ibtool/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib
+				    obj/iPhoneSimulator/Debug/ibtool/Main.storyboardc/Info.plist
+				    obj/iPhoneSimulator/Debug/ibtool/Main.storyboardc/UIViewController-BYZ-38-t0r.nib
+				    obj/iPhoneSimulator/Debug/optimized/Entitlements.plist
+				Creating directory '/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/bin/iPhoneSimulator/Debug/SingleViewExample.app'
+				Copying file from '/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/obj/iPhoneSimulator/Debug/ibtool/LaunchScreen.nib' to '/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/bin/iPhoneSimulator/Debug/SingleViewExample.app/LaunchScreen.nib'
+				Creating directory '/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/bin/iPhoneSimulator/Debug/SingleViewExample.app/Main.storyboardc'
+				Copying file from '/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/obj/iPhoneSimulator/Debug/ibtool/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib' to '/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/bin/iPhoneSimulator/Debug/SingleViewExample.app/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib'
+				Copying file from '/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/obj/iPhoneSimulator/Debug/ibtool/Main.storyboardc/Info.plist' to '/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/bin/iPhoneSimulator/Debug/SingleViewExample.app/Main.storyboardc/Info.plist'
+				Copying file from '/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/obj/iPhoneSimulator/Debug/ibtool/Main.storyboardc/UIViewController-BYZ-38-t0r.nib' to '/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/bin/iPhoneSimulator/Debug/SingleViewExample.app/Main.storyboardc/UIViewController-BYZ-38-t0r.nib'
+				Copying file from '/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/obj/iPhoneSimulator/Debug/optimized/Entitlements.plist' to '/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/bin/iPhoneSimulator/Debug/SingleViewExample.app/Entitlements.plist'
+			Done executing task "SmartCopy"
+			Done building target "_CopyResourcesToBundle" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj".
+		Done building target "_CopyResourcesToBundle" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj" ("/Library/Frameworks/Mono.framework/External/xbuild/Xamarin/iOS/Xamarin.iOS.Common.targets"); "_CreateAppBundle" depends on it.
+		Building target "_CreateAssetPackManifest" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj" ("/Library/Frameworks/Mono.framework/External/xbuild/Xamarin/iOS/Xamarin.iOS.Common.targets"); "_CreateAppBundle" depends on it.
+			Target _CreateAssetPackManifest:
+			Task "CreateAssetPackManifest"
+				Using task CreateAssetPackManifest from Xamarin.MacDev.Tasks.CreateAssetPackManifest, Xamarin.MacDev.Tasks, Version=1.0.5969.31770, Culture=neutral, PublicKeyToken=null
+				CreateAssetPackManifest Task
+				  AppBundleDir: bin/iPhoneSimulator/Debug/SingleViewExample.app
+				  InitialInstallTags: <null>
+				  OutputPath: bin/iPhoneSimulator/Debug/
+				  PrefetchOrder: <null>
+			Done executing task "CreateAssetPackManifest"
+			Done building target "_CreateAssetPackManifest" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj".
+		Done building target "_CreateAssetPackManifest" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj" ("/Library/Frameworks/Mono.framework/External/xbuild/Xamarin/iOS/Xamarin.iOS.Common.targets"); "_CreateAppBundle" depends on it.
+		Building target "_SmeltMetal" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj" ("/Library/Frameworks/Mono.framework/External/xbuild/Xamarin/iOS/Xamarin.iOS.Common.targets"); "_CreateAppBundle" depends on it.
+		Target _SmeltMetal skipped due to false condition: '$(_CanOutputAppBundle)' == 'true' And '@(Metal)' != ''
+		Done building target "_SmeltMetal" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj" ("/Library/Frameworks/Mono.framework/External/xbuild/Xamarin/iOS/Xamarin.iOS.Common.targets"); "_CreateAppBundle" depends on it.
+		Building target "_ForgeMetal" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj" ("/Library/Frameworks/Mono.framework/External/xbuild/Xamarin/iOS/Xamarin.iOS.Common.targets"); "_CreateAppBundle" depends on it.
+		Target _ForgeMetal skipped due to false condition: '$(_CanOutputAppBundle)' == 'true' And '@(_SmeltedMetal)' != ''
+		Done building target "_ForgeMetal" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj" ("/Library/Frameworks/Mono.framework/External/xbuild/Xamarin/iOS/Xamarin.iOS.Common.targets"); "_CreateAppBundle" depends on it.
+		Building target "_TemperMetal" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj" ("/Library/Frameworks/Mono.framework/External/xbuild/Xamarin/iOS/Xamarin.iOS.Common.targets"); "_CreateAppBundle" depends on it.
+		Target _TemperMetal skipped due to false condition: '$(_CanOutputAppBundle)' == 'true' And '@(_ForgedMetal)' != ''
+		Done building target "_TemperMetal" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj" ("/Library/Frameworks/Mono.framework/External/xbuild/Xamarin/iOS/Xamarin.iOS.Common.targets"); "_CreateAppBundle" depends on it.
+		Building target "_PrepareResourceRules" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj" ("/Library/Frameworks/Mono.framework/External/xbuild/Xamarin/iOS/Xamarin.iOS.Common.targets"); "_CreateAppBundle" depends on it.
+		Done building target "_PrepareResourceRules" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj" ("/Library/Frameworks/Mono.framework/External/xbuild/Xamarin/iOS/Xamarin.iOS.Common.targets"); "_CreateAppBundle" depends on it.
+		Building target "_CompileEntitlements" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj" ("/Library/Frameworks/Mono.framework/External/xbuild/Xamarin/iOS/Xamarin.iOS.Common.targets"); "_CreateAppBundle" depends on it.
+		Target _CompileEntitlements skipped due to false condition: '$(ComputedPlatform)' == 'iPhone' Or '$(CodesignEntitlements)' != ''
+		Done building target "_CompileEntitlements" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj" ("/Library/Frameworks/Mono.framework/External/xbuild/Xamarin/iOS/Xamarin.iOS.Common.targets"); "_CreateAppBundle" depends on it.
+		Building target "_CompileAppManifest" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj" ("/Library/Frameworks/Mono.framework/External/xbuild/Xamarin/iOS/Xamarin.iOS.Common.targets"); "_CreateAppBundle" depends on it.
+		Building target "_ResolveWatchAppReferences" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj" ("/Library/Frameworks/Mono.framework/External/xbuild/Xamarin/iOS/Xamarin.iOS.Common.targets"); "_CompileAppManifest" depends on it.
+		Building target "_SplitWatchAppReferencesByExistent" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj" ("/Library/Frameworks/Mono.framework/External/xbuild/Xamarin/iOS/Xamarin.iOS.Common.targets"); "_ResolveWatchAppReferences" depends on it.
+		Building target "_AssignWatchAppConfiguration" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj" ("/Library/Frameworks/Mono.framework/External/xbuild/Xamarin/iOS/Xamarin.iOS.Common.targets"); "_SplitWatchAppReferencesByExistent" depends on it.
+		Target _AssignWatchAppConfiguration skipped due to false condition: '@(_WatchAppReference)' != ''
+		Done building target "_AssignWatchAppConfiguration" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj" ("/Library/Frameworks/Mono.framework/External/xbuild/Xamarin/iOS/Xamarin.iOS.Common.targets"); "_SplitWatchAppReferencesByExistent" depends on it.
+		Done building target "_SplitWatchAppReferencesByExistent" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj" ("/Library/Frameworks/Mono.framework/External/xbuild/Xamarin/iOS/Xamarin.iOS.Common.targets"); "_ResolveWatchAppReferences" depends on it.
+		Done building target "_ResolveWatchAppReferences" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj" ("/Library/Frameworks/Mono.framework/External/xbuild/Xamarin/iOS/Xamarin.iOS.Common.targets"); "_CompileAppManifest" depends on it.
+			Target _CompileAppManifest:
+			Target _CompileAppManifest needs to be built as output file 'bin/iPhoneSimulator/Debug/SingleViewExample.app/Info.plist' does not exist.
+			Task "CompileAppManifest"
+				Using task CompileAppManifest from Xamarin.iOS.Tasks.CompileAppManifest, Xamarin.iOS.Tasks, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+				CompileAppManifest Task
+				  AppBundleName: SingleViewExample
+				  AppBundleDir: bin/iPhoneSimulator/Debug/SingleViewExample.app
+				  AppManifest: Info.plist
+				  Architecture: i386
+				  AssemblyName: SingleViewExample
+				  BundleIdentifier: com.companyname.SingleViewExample
+				  DefaultSdkVersion: 9.3
+				  IsAppExtension: False
+				  IsWatchApp: False
+				  IsWatchExtension: False
+				  PartialAppManifests: <null>
+				  ResourceRules: <null>
+				  SdkPlatform: iPhoneSimulator
+				  SdkIsSimulator: True
+				  TargetFrameworkIdentifier: Xamarin.iOS
+			Done executing task "CompileAppManifest"
+			Task "RemoveDir"
+				Using task RemoveDir from Microsoft.Build.Tasks.RemoveDir, Xamarin.iOS.Tasks, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+			Done executing task "RemoveDir"
+			Task "Delete"
+				Using task Delete from Microsoft.Build.Tasks.Delete, Xamarin.iOS.Tasks, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+			Done executing task "Delete"
+			Done building target "_CompileAppManifest" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj".
+		Done building target "_CompileAppManifest" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj" ("/Library/Frameworks/Mono.framework/External/xbuild/Xamarin/iOS/Xamarin.iOS.Common.targets"); "_CreateAppBundle" depends on it.
+		Building target "_GetNativeExecutableName" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj" ("/Library/Frameworks/Mono.framework/External/xbuild/Xamarin/iOS/Xamarin.iOS.Common.targets"); "_CreateAppBundle" depends on it.
+			Target _GetNativeExecutableName:
+			Task "GetNativeExecutableName"
+				Using task GetNativeExecutableName from Xamarin.MacDev.Tasks.GetNativeExecutableName, Xamarin.MacDev.Tasks, Version=1.0.5969.31770, Culture=neutral, PublicKeyToken=null
+				GetNativeExecutableName Task
+				  AppManifest: bin/iPhoneSimulator/Debug/SingleViewExample.app/Info.plist
+			Done executing task "GetNativeExecutableName"
+			Done building target "_GetNativeExecutableName" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj".
+		Done building target "_GetNativeExecutableName" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj" ("/Library/Frameworks/Mono.framework/External/xbuild/Xamarin/iOS/Xamarin.iOS.Common.targets"); "_CreateAppBundle" depends on it.
+		Building target "_CompileToNative" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj" ("/Library/Frameworks/Mono.framework/External/xbuild/Xamarin/iOS/Xamarin.iOS.Common.targets"); "_CreateAppBundle" depends on it.
+		Building target "_CompileEntitlements" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj" ("/Library/Frameworks/Mono.framework/External/xbuild/Xamarin/iOS/Xamarin.iOS.Common.targets"); "_CompileToNative" depends on it.
+		Target _CompileEntitlements skipped due to false condition: '$(ComputedPlatform)' == 'iPhone' Or '$(CodesignEntitlements)' != ''
+		Done building target "_CompileEntitlements" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj" ("/Library/Frameworks/Mono.framework/External/xbuild/Xamarin/iOS/Xamarin.iOS.Common.targets"); "_CompileToNative" depends on it.
+		Building target "_ResolveAppExtensionReferences" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj" ("/Library/Frameworks/Mono.framework/External/xbuild/Xamarin/iOS/Xamarin.iOS.Common.targets"); "_CompileToNative" depends on it.
+		Building target "_SplitAppExtensionReferencesByExistent" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj" ("/Library/Frameworks/Mono.framework/External/xbuild/Xamarin/iOS/Xamarin.iOS.Common.targets"); "_ResolveAppExtensionReferences" depends on it.
+		Building target "_AssignAppExtensionConfiguration" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj" ("/Library/Frameworks/Mono.framework/External/xbuild/Xamarin/iOS/Xamarin.iOS.Common.targets"); "_SplitAppExtensionReferencesByExistent" depends on it.
+		Target _AssignAppExtensionConfiguration skipped due to false condition: '@(_AppExtensionReference)' != ''
+		Done building target "_AssignAppExtensionConfiguration" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj" ("/Library/Frameworks/Mono.framework/External/xbuild/Xamarin/iOS/Xamarin.iOS.Common.targets"); "_SplitAppExtensionReferencesByExistent" depends on it.
+		Done building target "_SplitAppExtensionReferencesByExistent" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj" ("/Library/Frameworks/Mono.framework/External/xbuild/Xamarin/iOS/Xamarin.iOS.Common.targets"); "_ResolveAppExtensionReferences" depends on it.
+		Done building target "_ResolveAppExtensionReferences" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj" ("/Library/Frameworks/Mono.framework/External/xbuild/Xamarin/iOS/Xamarin.iOS.Common.targets"); "_CompileToNative" depends on it.
+			Target _CompileToNative:
+			Target _CompileToNative needs to be built as output file 'bin/iPhoneSimulator/Debug/SingleViewExample.app/SingleViewExample' does not exist.
+			Task "MTouch"
+				Using task MTouch from Xamarin.iOS.Tasks.MTouch, Xamarin.iOS.Tasks, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+				MTouch Task
+				  AppBundleDir: bin/iPhoneSimulator/Debug/SingleViewExample.app
+				  AppExtensionReferences:
+				  AppManifest: bin/iPhoneSimulator/Debug/SingleViewExample.app/Info.plist
+				  Architectures: i386
+				  CompiledEntitlements: obj/iPhoneSimulator/Debug/Entitlements.xcent
+				  Debug: True
+				  EnableGenericValueTypeSharing: True
+				  Entitlements: <null>
+				  ExecutableName: SingleViewExample
+				  ExtraArgs: -v -v -v -v
+				  FastDev: False
+				  I18n: <null>
+				  IntermediateOutputPath: obj/iPhoneSimulator/Debug/mtouch-cache
+				  IsAppExtension: False
+				  LinkMode: None
+				  MainAssembly: /Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/bin/iPhoneSimulator/Debug//SingleViewExample.exe
+				  NativeReferences: <null>
+				  OutputPath: bin/iPhoneSimulator/Debug/
+				  Profiling: False
+				  ProjectDir: /Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample
+				  References:
+				    /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.dll
+				    /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.Xml.dll
+				    /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Xamarin.iOS.dll
+				    /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.Core.dll
+				    /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/mscorlib.dll
+				  SdkIsSimulator: True
+				  SdkRoot: /Applications/Xcode.app/Contents/Developer
+				  SdkVersion: 9.3
+				  SymbolsList: obj/iPhoneSimulator/Debug/mtouch-symbols.list
+				  TargetFrameworkIdentifier: Xamarin.iOS
+				  UseFloat32: False
+				  UseLlvm: False
+				  UseRefCounting: False
+				  UseSGen: True
+				  UseThumb: False
+				Tool /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/bin/mtouch execution started with arguments: --cache /Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/obj/iPhoneSimulator/Debug/mtouch-cache --sim /Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/bin/iPhoneSimulator/Debug/SingleViewExample.app --executable SingleViewExample --debug --nolink --sdkroot /Applications/Xcode.app/Contents/Developer --sdk 9.3 --targetver 9.3 --abi=i386 --symbollist /Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/obj/iPhoneSimulator/Debug/mtouch-symbols.list --dsym=no -v -v -v -v -r /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.dll -r /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.Xml.dll -r /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Xamarin.iOS.dll -r /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.Core.dll -r /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/mscorlib.dll --target-framework Xamarin.iOS,v1.0 /Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/bin/iPhoneSimulator/Debug//SingleViewExample.exe 
+				Environment variables being passed to the tool:
+				Using Xcode 7.3.1 found in /Applications/Xcode.app/Contents/Developer
+				Xamarin.iOS 9.6.2.4 (cycle6-xi: d8bedd0) using framework: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.3.sdk
+				A full rebuild will be performed because the cache is either incomplete or entirely missing.
+				Copied /Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/bin/iPhoneSimulator/Debug/SingleViewExample.exe to /Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/bin/iPhoneSimulator/Debug/SingleViewExample.app/SingleViewExample.exe
+				Copied /Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/bin/iPhoneSimulator/Debug/SingleViewExample.exe.mdb to /Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/bin/iPhoneSimulator/Debug/SingleViewExample.app/SingleViewExample.exe.mdb
+				Copied /Library/Frameworks/Xamarin.iOS.framework/Versions/9.6.2.4/lib/32bits/Xamarin.iOS.dll to /Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/bin/iPhoneSimulator/Debug/SingleViewExample.app/Xamarin.iOS.dll
+				Copied /Library/Frameworks/Xamarin.iOS.framework/Versions/9.6.2.4/lib/32bits/Xamarin.iOS.dll.mdb to /Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/bin/iPhoneSimulator/Debug/SingleViewExample.app/Xamarin.iOS.dll.mdb
+				Copied /Library/Frameworks/Xamarin.iOS.framework/Versions/9.6.2.4/lib/mono/2.1/mscorlib.dll to /Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/bin/iPhoneSimulator/Debug/SingleViewExample.app/mscorlib.dll
+				Copied /Library/Frameworks/Xamarin.iOS.framework/Versions/9.6.2.4/lib/mono/2.1/mscorlib.dll.mdb to /Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/bin/iPhoneSimulator/Debug/SingleViewExample.app/mscorlib.dll.mdb
+				Copied /Library/Frameworks/Xamarin.iOS.framework/Versions/9.6.2.4/lib/mono/2.1/System.dll to /Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/bin/iPhoneSimulator/Debug/SingleViewExample.app/System.dll
+				Copied /Library/Frameworks/Xamarin.iOS.framework/Versions/9.6.2.4/lib/mono/2.1/System.dll.mdb to /Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/bin/iPhoneSimulator/Debug/SingleViewExample.app/System.dll.mdb
+				Copied /Library/Frameworks/Xamarin.iOS.framework/Versions/9.6.2.4/lib/mono/2.1/System.Xml.dll to /Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/bin/iPhoneSimulator/Debug/SingleViewExample.app/System.Xml.dll
+				Copied /Library/Frameworks/Xamarin.iOS.framework/Versions/9.6.2.4/lib/mono/2.1/System.Xml.dll.mdb to /Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/bin/iPhoneSimulator/Debug/SingleViewExample.app/System.Xml.dll.mdb
+				Copied /Library/Frameworks/Xamarin.iOS.framework/Versions/9.6.2.4/lib/mono/2.1/System.Core.dll to /Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/bin/iPhoneSimulator/Debug/SingleViewExample.app/System.Core.dll
+				Copied /Library/Frameworks/Xamarin.iOS.framework/Versions/9.6.2.4/lib/mono/2.1/System.Core.dll.mdb to /Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/bin/iPhoneSimulator/Debug/SingleViewExample.app/System.Core.dll.mdb
+				Copied /Library/Frameworks/Xamarin.iOS.framework/Versions/9.6.2.4/lib/mono/2.1/Mono.Dynamic.Interpreter.dll to /Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/bin/iPhoneSimulator/Debug/SingleViewExample.app/Mono.Dynamic.Interpreter.dll
+				Copied /Library/Frameworks/Xamarin.iOS.framework/Versions/9.6.2.4/lib/mono/2.1/Mono.Dynamic.Interpreter.dll.mdb to /Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/bin/iPhoneSimulator/Debug/SingleViewExample.app/Mono.Dynamic.Interpreter.dll.mdb
+				Application (i386) was built using fast-path for simulator.
+				/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/bin/iPhoneSimulator/Debug/SingleViewExample.app built successfully.
+				Tool /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/bin/mtouch execution finished.
+			Done executing task "MTouch"
+			Task "RemoveDir"
+				Using task RemoveDir from Microsoft.Build.Tasks.RemoveDir, Xamarin.iOS.Tasks, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+			Done executing task "RemoveDir"
+			Task "Delete"
+				Using task Delete from Microsoft.Build.Tasks.Delete, Xamarin.iOS.Tasks, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+			Done executing task "Delete"
+			Done building target "_CompileToNative" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj".
+		Done building target "_CompileToNative" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj" ("/Library/Frameworks/Mono.framework/External/xbuild/Xamarin/iOS/Xamarin.iOS.Common.targets"); "_CreateAppBundle" depends on it.
+		Building target "_CompileITunesMetadata" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj" ("/Library/Frameworks/Mono.framework/External/xbuild/Xamarin/iOS/Xamarin.iOS.Common.targets"); "_CreateAppBundle" depends on it.
+		Target _CompileITunesMetadata skipped due to false condition: '$(ComputedPlatform)' == 'iPhone' And '$(IsAppExtension)' == 'false' And '$(IsWatchApp)' == 'false'
+		Done building target "_CompileITunesMetadata" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj" ("/Library/Frameworks/Mono.framework/External/xbuild/Xamarin/iOS/Xamarin.iOS.Common.targets"); "_CreateAppBundle" depends on it.
+		Building target "_CollectITunesArtwork" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj" ("/Library/Frameworks/Mono.framework/External/xbuild/Xamarin/iOS/Xamarin.iOS.Common.targets"); "_CreateAppBundle" depends on it.
+		Target _CollectITunesArtwork skipped due to false condition: '$(ComputedPlatform)' == 'iPhone' And '$(IsAppExtension)' == 'false' And '$(IsWatchApp)' == 'false'
+		Done building target "_CollectITunesArtwork" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj" ("/Library/Frameworks/Mono.framework/External/xbuild/Xamarin/iOS/Xamarin.iOS.Common.targets"); "_CreateAppBundle" depends on it.
+		Building target "_CopyITunesArtwork" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj" ("/Library/Frameworks/Mono.framework/External/xbuild/Xamarin/iOS/Xamarin.iOS.Common.targets"); "_CreateAppBundle" depends on it.
+		Target _CopyITunesArtwork skipped due to false condition: '$(ComputedPlatform)' == 'iPhone' And '$(IsAppExtension)' == 'false' And '$(IsWatchApp)' == 'false'
+		Done building target "_CopyITunesArtwork" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj" ("/Library/Frameworks/Mono.framework/External/xbuild/Xamarin/iOS/Xamarin.iOS.Common.targets"); "_CreateAppBundle" depends on it.
+		Building target "_CreateDebugSettings" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj" ("/Library/Frameworks/Mono.framework/External/xbuild/Xamarin/iOS/Xamarin.iOS.Common.targets"); "_CreateAppBundle" depends on it.
+			Target _CreateDebugSettings:
+			Task "CreateDebugSettings"
+				Using task CreateDebugSettings from Xamarin.iOS.Tasks.CreateDebugSettings, Xamarin.iOS.Tasks, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+				CreateDebugSettings Task
+				  AppBundleDir: bin/iPhoneSimulator/Debug/SingleViewExample.app
+				  DebuggerPort: 10000
+			Done executing task "CreateDebugSettings"
+			Done building target "_CreateDebugSettings" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj".
+		Done building target "_CreateDebugSettings" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj" ("/Library/Frameworks/Mono.framework/External/xbuild/Xamarin/iOS/Xamarin.iOS.Common.targets"); "_CreateAppBundle" depends on it.
+		Building target "_CreateDebugConfiguration" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj" ("/Library/Frameworks/Mono.framework/External/xbuild/Xamarin/iOS/Xamarin.iOS.Common.targets"); "_CreateAppBundle" depends on it.
+			Target _CreateDebugConfiguration:
+			Task "CreateDebugConfiguration"
+				Using task CreateDebugConfiguration from Xamarin.iOS.Tasks.CreateDebugConfiguration, Xamarin.iOS.Tasks, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+				CreateDebugConfiguration Task
+				  AppBundleDir: bin/iPhoneSimulator/Debug/SingleViewExample.app
+				  DebugOverWiFi: False
+				  DebuggerHosts: <null>
+				  DebuggerPort: 10000
+				  SdkIsSimulator: True
+			Done executing task "CreateDebugConfiguration"
+			Done building target "_CreateDebugConfiguration" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj".
+		Done building target "_CreateDebugConfiguration" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj" ("/Library/Frameworks/Mono.framework/External/xbuild/Xamarin/iOS/Xamarin.iOS.Common.targets"); "_CreateAppBundle" depends on it.
+		Building target "_CreatePkgInfo" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj" ("/Library/Frameworks/Mono.framework/External/xbuild/Xamarin/iOS/Xamarin.iOS.Common.targets"); "_CreateAppBundle" depends on it.
+			Target _CreatePkgInfo:
+			Task "CreatePkgInfo"
+				Using task CreatePkgInfo from Xamarin.MacDev.Tasks.CreatePkgInfo, Xamarin.MacDev.Tasks, Version=1.0.5969.31770, Culture=neutral, PublicKeyToken=null
+				CreatePkgInfo Task
+				  OutputPath: bin/iPhoneSimulator/Debug/SingleViewExample.app/PkgInfo
+			Done executing task "CreatePkgInfo"
+			Done building target "_CreatePkgInfo" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj".
+		Done building target "_CreatePkgInfo" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj" ("/Library/Frameworks/Mono.framework/External/xbuild/Xamarin/iOS/Xamarin.iOS.Common.targets"); "_CreateAppBundle" depends on it.
+		Building target "_CopyAppExtensionsToBundle" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj" ("/Library/Frameworks/Mono.framework/External/xbuild/Xamarin/iOS/Xamarin.iOS.Common.targets"); "_CreateAppBundle" depends on it.
+		Done building target "_CopyAppExtensionsToBundle" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj" ("/Library/Frameworks/Mono.framework/External/xbuild/Xamarin/iOS/Xamarin.iOS.Common.targets"); "_CreateAppBundle" depends on it.
+		Building target "_CopyWatchAppsToBundle" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj" ("/Library/Frameworks/Mono.framework/External/xbuild/Xamarin/iOS/Xamarin.iOS.Common.targets"); "_CreateAppBundle" depends on it.
+		Target _CopyWatchAppsToBundle skipped due to false condition: '$(IsAppExtension)' == 'true'
+		Done building target "_CopyWatchAppsToBundle" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj" ("/Library/Frameworks/Mono.framework/External/xbuild/Xamarin/iOS/Xamarin.iOS.Common.targets"); "_CreateAppBundle" depends on it.
+		Building target "_CopyWatch2AppsToBundle" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj" ("/Library/Frameworks/Mono.framework/External/xbuild/Xamarin/iOS/Xamarin.iOS.Common.targets"); "_CreateAppBundle" depends on it.
+		Done building target "_CopyWatch2AppsToBundle" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj" ("/Library/Frameworks/Mono.framework/External/xbuild/Xamarin/iOS/Xamarin.iOS.Common.targets"); "_CreateAppBundle" depends on it.
+		Building target "_GenerateDebugSymbols" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj" ("/Library/Frameworks/Mono.framework/External/xbuild/Xamarin/iOS/Xamarin.iOS.Common.targets"); "_CreateAppBundle" depends on it.
+		Target _GenerateDebugSymbols skipped due to false condition: '$(ComputedPlatform)' == 'iPhone' And '$(IsWatchApp)' == 'false'
+		Done building target "_GenerateDebugSymbols" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj" ("/Library/Frameworks/Mono.framework/External/xbuild/Xamarin/iOS/Xamarin.iOS.Common.targets"); "_CreateAppBundle" depends on it.
+		Building target "_ValidateAppBundle" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj" ("/Library/Frameworks/Mono.framework/External/xbuild/Xamarin/iOS/Xamarin.iOS.Common.targets"); "_CreateAppBundle" depends on it.
+			Target _ValidateAppBundle:
+			Task "ValidateAppBundleTask"
+				Using task ValidateAppBundleTask from Xamarin.iOS.Tasks.ValidateAppBundleTask, Xamarin.iOS.Tasks, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+				ValidateAppBundle Task
+				  AppBundlePath: /Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/bin/iPhoneSimulator/Debug/SingleViewExample.app/
+				  SdkIsSimulator: True
+				  TargetFrameworkIdentifier: Xamarin.iOS
+			Done executing task "ValidateAppBundleTask"
+			Done building target "_ValidateAppBundle" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj".
+		Done building target "_ValidateAppBundle" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj" ("/Library/Frameworks/Mono.framework/External/xbuild/Xamarin/iOS/Xamarin.iOS.Common.targets"); "_CreateAppBundle" depends on it.
+		Done building target "_CreateAppBundle" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj" ("/Library/Frameworks/Mono.framework/External/xbuild/Xamarin/iOS/Xamarin.iOS.Common.targets"); "Build" depends on it.
+		Building target "Codesign" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj" ("/Library/Frameworks/Mono.framework/External/xbuild/Xamarin/iOS/Xamarin.iOS.Common.targets"); "Build" depends on it.
+		Target Codesign skipped due to false condition: '$(_CanOutputAppBundle)' == 'true' And '$(ComputedPlatform)' == 'iPhone'
+		Done building target "Codesign" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj" ("/Library/Frameworks/Mono.framework/External/xbuild/Xamarin/iOS/Xamarin.iOS.Common.targets"); "Build" depends on it.
+		Building target "CreateIpa" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj" ("/Library/Frameworks/Mono.framework/External/xbuild/Xamarin/iOS/Xamarin.iOS.Common.targets"); "Build" depends on it.
+		Target CreateIpa skipped due to false condition: '$(_CanArchive)' == 'true'
+		Done building target "CreateIpa" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj" ("/Library/Frameworks/Mono.framework/External/xbuild/Xamarin/iOS/Xamarin.iOS.Common.targets"); "Build" depends on it.
+		Building target "Archive" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj" ("/Library/Frameworks/Mono.framework/External/xbuild/Xamarin/iOS/Xamarin.iOS.Common.targets"); "Build" depends on it.
+		Target Archive skipped due to false condition: '$(_CanArchive)' == 'true'
+		Done building target "Archive" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj" ("/Library/Frameworks/Mono.framework/External/xbuild/Xamarin/iOS/Xamarin.iOS.Common.targets"); "Build" depends on it.
+		Done building target "Build" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj" ("/Library/Frameworks/Mono.framework/Versions/4.2.4/lib/mono/4.5/Microsoft.Common.targets").
+		Done building project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj".
+	Done executing task "MSBuild"
+	Task "CallTarget"
+		Using task CallTarget from Microsoft.Build.Tasks.CallTarget, Microsoft.Build.Tasks.v12.0, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+	Done executing task "CallTarget"
+	Done building target "Build" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.sln".
+Done building target "Build" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.sln" ("/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.sln").
+Done building project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.sln".
+
+Build succeeded.
+
+Warnings:
+
+/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.sln:  warning : Project file /Users/colin.dabritz/Documents/Git/XamarinTest/MissingDependencyLibrary/MissingDependencyLibrary.csproj referenced in the solution file, not found. Ignoring.
+
+/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.sln (default targets) ->
+(Build target) ->
+
+	/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.sln:  warning : The project configuration for project 'MissingDependencyLibrary' corresponding to the solution configuration 'Debug|iPhoneSimulator' was not found.
+
+	 2 Warning(s)
+	 0 Error(s)
+
+Time Elapsed 00:00:01.6713070

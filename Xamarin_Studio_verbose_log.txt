@@ -1,0 +1,7 @@
+﻿Building Solution: SingleViewExample (Debug|iPhoneSimulator)
+
+Building: MissingDependencyLibrary (Debug|iPhoneSimulator)
+
+---------------------- Done ----------------------
+
+Build: 1 error, 0 warnings

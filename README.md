@@ -22,15 +22,19 @@ Steps
 * Removed library project files only (no solution or main project changes)
    * Note that this change broke the command line build, see next change.
 * Removed library project from building for all configurations
+* Added verbose mtouch output flag(s)
+* Tested final example build status, captured logs
 	* Confirmed build still works on Visual Studio Windows
 	* Confirmed build still works on command line
 	* Build is now failing in Xamarin Studio Mac, 1 Error, Description:"Project Unavailable", Project:"MissingDependencyLibrary"
 	
 Log info:
-* TODO: For command line output in final example case see file: command_line_verbose_log.txt
-* All IDEs and tools should be latest stable versions as of May 25th, 2016. Full information is below:
+* For command line output in final example case see file: command_line_verbose_log.txt
+* For Xamarin Studio build output in final example case see file: Xamarin_Studio_verbose_log.txt
+* All IDEs and tools should be latest stable versions as of May 25th, 2016. Full information is below
 * Help -> About Microsoft Visual Studio -> Copy Info
 
+```
 	Microsoft Visual Studio Enterprise 2015
 	Version 14.0.25123.00 Update 2
 	Microsoft .NET Framework
@@ -141,6 +145,63 @@ Log info:
 
 	Xamarin.iOS   9.6.1.8 (3a25bf1)
 	Visual Studio extension to enable development for Xamarin.iOS.
+```
 
 * Xamarin Studio -> About Xamarin Studio -> Show Details -> Copy Infomration
-    * TODO
+
+```
+    === Xamarin Studio Enterprise ===
+
+    Version 5.10.3 (build 51)
+    Installation UUID: 075488b4-d2e2-45b6-9e91-c78fdcd21926
+    Runtime:
+    Mono 4.2.4 (explicit/71b88f3)
+    GTK+ 2.24.23 (Raleigh theme)
+
+	Package version: 402040004
+
+	=== Xamarin.Profiler ===
+
+	Version: 0.30.0
+	Location: /Applications/Xamarin Profiler.app/Contents/MacOS/Xamarin Profiler
+
+	=== Apple Developer Tools ===
+
+	Xcode 7.3.1 (10188.1)
+	Build 7D1014
+
+	=== Xamarin.iOS ===
+
+	Version: 9.6.2.4 (Xamarin Enterprise)
+	Hash: d8bedd0
+	Branch: master
+	Build date: 2016-05-05 17:43:01-0400
+
+	=== Xamarin.Android ===
+
+	Not Installed
+
+	=== Xamarin Android Player ===
+
+	Not Installed
+
+	=== Xamarin.Mac ===
+
+	Version: 2.4.2.3 (Xamarin Enterprise)
+
+	=== Build Information ===
+
+	Release ID: 510030051
+	Git revision: f3c0d982165f785772d125f02668370d929014fb
+	Build date: 2016-03-24 18:51:31-04
+	Xamarin addins: ee5cfd3ecb6b20de47c1d25efb9a9abc101e8ce7
+	Build lane: monodevelop-lion-cycle6-c6sr3
+
+	=== Operating System ===
+
+	Mac OS X 10.11.5
+	Darwin lttimjensen.vcs.coaxis.net 15.5.0 Darwin Kernel Version 15.5.0
+	Tue Apr 19 18:36:36 PDT 2016
+	root:xnu-3248.50.21~8/RELEASE_X86_64 x86_64
+```
+
