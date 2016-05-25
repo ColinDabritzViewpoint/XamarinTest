@@ -3,7 +3,7 @@ Mono, Version 4.2.4.0
 Copyright (C) 2005-2013 Various Mono authors
 Loading default tasks for ToolsVersion: 4.0 from /Library/Frameworks/Mono.framework/Versions/4.2.4/lib/mono/4.5/Microsoft.Common.tasks
 
-Build started 5/25/2016 1:59:50 PM.
+Build started 5/25/2016 2:19:05 PM.
 __________________________________________________
 /Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj: Importing project /Library/Frameworks/Mono.framework/External/xbuild/Xamarin/iOS/Xamarin.iOS.CSharp.targets from extension path /Library/Frameworks/Mono.framework/External/xbuild
 /Library/Frameworks/Mono.framework/External/xbuild/Xamarin/iOS/Xamarin.iOS.CSharp.targets: Importing project /Library/Frameworks/Mono.framework/Versions/4.2.4/lib/mono/4.5/Microsoft.CSharp.targets 
@@ -13,6 +13,69 @@ __________________________________________________
 /Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.sln:  warning : Project file /Users/colin.dabritz/Documents/Git/XamarinTest/MissingDependencyLibrary/MissingDependencyLibrary.csproj referenced in the solution file, not found. Ignoring.
 Loading default tasks for ToolsVersion: 12.0 from /Library/Frameworks/Mono.framework/Versions/4.2.4/lib/mono/xbuild/12.0/bin/Microsoft.Common.tasks
 Project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.sln" (default target(s)):
+
+Initial Properties:
+_ = /usr/local/bin/xbuild
+__CF_USER_TEXT_ENCODING = 0x2AF7A422:0x0:0x0
+Apple_PubSub_Socket_Render = /private/tmp/com.apple.launchd.0SyRkEHXTu/Render
+AspNetConfiguration = $(Configuration)
+Configuration = Debug
+CurrentSolutionConfigurationContents = <SolutionConfiguration xmlns=""><ProjectConfiguration Project="{19FBD5DD-B9FE-463B-84AF-0BF57559CDC6}">Debug|iPhoneSimulator</ProjectConfiguration></SolutionConfiguration>
+HOME = /Users/colin.dabritz
+LANG = en_US.UTF-8
+LOGNAME = colin.dabritz
+MSBuildBinPath = /Library/Frameworks/Mono.framework/Versions/4.2.4/lib/mono/xbuild/12.0/bin
+MSBuildExtensionsPath = /Library/Frameworks/Mono.framework/Versions/4.2.4/lib/mono/xbuild
+MSBuildExtensionsPath32 = /Library/Frameworks/Mono.framework/Versions/4.2.4/lib/mono/xbuild
+MSBuildExtensionsPath64 = /Library/Frameworks/Mono.framework/Versions/4.2.4/lib/mono/xbuild
+MSBuildFrameworkToolsPath = /Library/Frameworks/Mono.framework/Versions/4.2.4/lib/mono/4.5
+MSBuildFrameworkToolsPath32 = /Library/Frameworks/Mono.framework/Versions/4.2.4/lib/mono/4.5
+MSBuildProjectDefaultTargets = Build
+MSBuildProjectDirectory = /Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample
+MSBuildProjectExtension = .sln
+MSBuildProjectFile = SingleViewExample.sln
+MSBuildProjectFullPath = /Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.sln
+MSBuildProjectName = SingleViewExample
+MSBuildThisFile = SingleViewExample.sln
+MSBuildThisFileDirectory = /Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/
+MSBuildThisFileDirectoryNoRoot = Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/
+MSBuildThisFileExtension = .sln
+MSBuildThisFileFullPath = /Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.sln
+MSBuildThisFileName = SingleViewExample
+MSBuildToolsPath = /Library/Frameworks/Mono.framework/Versions/4.2.4/lib/mono/xbuild/12.0/bin
+MSBuildToolsPath32 = /Library/Frameworks/Mono.framework/Versions/4.2.4/lib/mono/xbuild/12.0/bin
+MSBuildToolsRoot = /Library/Frameworks/Mono.framework/Versions/4.2.4/lib/mono/xbuild/12.0
+MSBuildToolsVersion = 12.0
+OS = Unix
+PATH = /usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
+Platform = iPhoneSimulator
+PWD = /Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample
+SECURITYSESSIONID = 186a7
+SHELL = /bin/bash
+SHLVL = 1
+SolutionDir = /Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/
+SolutionExt = .sln
+SolutionFileName = SingleViewExample.sln
+SolutionName = SingleViewExample
+SolutionPath = /Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.sln
+SSH_AUTH_SOCK = /private/tmp/com.apple.launchd.vdIAuOK6mK/Listeners
+TERM = xterm-256color
+TERM_PROGRAM = Apple_Terminal
+TERM_PROGRAM_VERSION = 361.1
+TERM_SESSION_ID = A7DABC82-952D-454A-9396-051F5CC67519
+TMPDIR = /var/folders/nb/vt88h3f9155cy98pp874gt9rngg912/T/
+USER = colin.dabritz
+XPC_FLAGS = 0x0
+XPC_SERVICE_NAME = 0
+
+Initial Items:
+BuildLevel1
+	/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj
+MissingConfigLevel0
+	MissingDependencyLibrary
+ProjectReference
+	/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj
+	/Users/colin.dabritz/Documents/Git/XamarinTest/MissingDependencyLibrary/MissingDependencyLibrary.csproj
 Building target "ValidateSolutionConfiguration" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.sln" ("/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.sln").
 	Target ValidateSolutionConfiguration:
 	Task "Message"
@@ -45,6 +108,368 @@ Building target "Build" in project "/Users/colin.dabritz/Documents/Git/XamarinTe
 		/Library/Frameworks/Mono.framework/External/xbuild/Xamarin/iOS/Xamarin.iOS.CSharp.targets: Importing project /Library/Frameworks/Mono.framework/External/xbuild/Xamarin/iOS/Xamarin.iOS.Common.targets 
 		/Library/Frameworks/Mono.framework/External/xbuild/Xamarin/iOS/Xamarin.iOS.Common.targets: Importing project /Library/Frameworks/Mono.framework/External/xbuild/Xamarin/iOS/Xamarin.iOS.Common.props from extension path /Library/Frameworks/Mono.framework/External/xbuild
 		Project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj" (default target(s)):
+		Initial Properties:
+		_ = /usr/local/bin/xbuild
+		__CF_USER_TEXT_ENCODING = 0x2AF7A422:0x0:0x0
+		_ACTool_BundleResourceCache = $(IntermediateOutputPath)actool\_BundleResourceWithLogicalName.items
+		_ACTool_PartialAppManifestCache = $(IntermediateOutputPath)actool\_PartialAppManifest.items
+		_AppBundleName = $(AssemblyName)
+		_CanArchive = False
+		_CanOutputAppBundle = True
+		_CodesignAppBundleDependsOn = 
+					_EmbedMobileProvision;
+					_CodesignNativeLibraries;
+					_CodesignFrameworks;
+				
+		_CollectBundleResourcesDependsOn = 
+					_CompileInterfaceDefinitions;
+					_CompileImageAssets;
+					_CompileColladaAssets;
+					_CompileSceneKitAssets;
+					_CompileTextureAtlases;
+				
+		_CompileToNativeDependsOn = 
+					_DetectAppManifest;
+					_DetectSdkLocations;
+					_GenerateBundleName;
+					_DetectSigningIdentity;
+					_CompileEntitlements;
+					_CompileAppManifest;
+					_ResolveAppExtensionReferences;
+					_GetNativeExecutableName
+				
+		_CoreCodesignDependsOn = 
+					_CodesignAppBundle;
+					_CodesignVerify;
+				
+		_IBToolCache = $(IntermediateOutputPath)ibtool\_BundleResourceWithLogicalName.items
+		_IsContainerApp = true
+		_IsWatchExtension = false
+		_OriginalConfiguration = $(Configuration)
+		_OriginalPlatform = $(Platform)
+		_Platform = $(Platform)
+		_PreparedResourceRules = 
+		_SceneKitCache = $(IntermediateOutputPath)copySceneKitAssets\_BundleResourceWithLogicalName.items
+		_TextureAtlasCache = $(IntermediateOutputPath)atlas\_BundleResourceWithLogicalName.items
+		_XamarinCommonPropsHasBeenImported = true
+		AddAdditionalExplicitAssemblyReferences = true
+		AdditionalExplicitAssemblyReferences = System.Core;$(AdditionalExplicitAssemblyReferences)
+		AllowedReferenceAssemblyFileExtensions = 
+					.exe;
+					.dll
+				
+		AllowedReferenceRelatedFileExtensions = 
+					$(AllowedReferenceRelatedFileExtensions);
+					.dll.mdb;
+					.exe.mdb
+				
+		Apple_PubSub_Socket_Render = /private/tmp/com.apple.launchd.0SyRkEHXTu/Render
+		ArchiveDependsOn = 
+					_CoreArchive
+				
+		ArchiveOnBuild = False
+		AssemblyName = SingleViewExample
+		AssemblySearchPaths = 
+					{CandidateAssemblyFiles};
+					$(ReferencePath);
+					@(AdditionalReferencePath);
+					{HintPathFromItem};
+					{TargetFrameworkDirectory};
+					{PkgConfig};
+					{GAC};
+					{RawFileName};
+					$(OutDir)
+				
+		BaseIntermediateOutputPath = obj\
+		BuildDependsOn = 
+					BuildOnlySettings;
+					PrepareForBuild;
+					_CollectBundleResources;
+					_OptimizePngImages;
+					_OptimizePropertyLists;
+					_OptimizeLocalizationFiles;
+					_PackLibraryResources;
+					_UnpackLibraryResources;
+					$(BuildDependsOn);
+					_CleanUploaded;
+					_CreateAppBundle;
+					Codesign;
+					CreateIpa;
+					Archive;
+				
+		BuildingSolutionFile = true
+		BuildIpa = False
+		BuildSessionId = 
+		CheckForSystemRuntimeDependency = true
+		CleanDependsOn = 
+					$(CleanDependsOn);
+					_CleanUploaded;
+					_CleanAppBundle;
+					_CleanDebugSymbols;
+					_CleanITunesArtwork;
+					_CleanDeviceSpecificOutput;
+					_CleanIntermediateToolOutput;
+				
+		CleanFile = $(MSBuildProjectFile).FilesWrittenAbsolute.txt
+		CodesignDependsOn = 
+					BeforeCodeSign;
+					CoreCodeSign;
+					AfterCodeSign;
+				
+		CompileColladaAssetsDependsOn = 
+					_CollectColladaAssets;
+					_CoreCompileColladaAssets
+				
+		CompileDependsOn = 
+					ResolveReferences;
+					GenerateTargetFrameworkMonikerAttribute;
+					BeforeCompile;
+					_TimestampBeforeCompile;
+					CoreCompile;
+					_TimestampAfterCompile;
+					AfterCompile
+				
+		CompileLicxFilesDependsOn = 
+		ComputedPlatform = $(Platform)
+		Configuration = Debug
+		ConfigurationName = $(Configuration)
+		ConsolePause = false
+		CoreBuildDependsOn = 
+					PrepareForBuild;
+					GetFrameworkPaths;
+					GetReferenceAssemblyPaths;
+					PreBuildEvent;
+					ResolveReferences;
+					CopyFilesMarkedCopyLocal;
+					PrepareResources;
+					Compile;
+					PrepareForRun;
+					DeployOutputFiles;
+					_RecordCleanFile;
+					PostBuildEvent
+				
+		CoreCompileDependsOn = 
+		CreateAppBundleDependsOn = 
+					_CleanUploaded;
+					_DetectAppManifest;
+					_DetectSigningIdentity;
+					_GenerateBundleName;
+					_CopyResourcesToBundle;
+					_CreateAssetPackManifest;
+					_SmeltMetal;
+					_ForgeMetal;
+					_TemperMetal;
+					_PrepareResourceRules;
+					_CompileEntitlements;
+					_CompileAppManifest;
+					_GetNativeExecutableName;
+					_CompileToNative;
+					_CompileITunesMetadata;
+					_CollectITunesArtwork;
+					_CopyITunesArtwork;
+					_CreateDebugSettings;
+					_CreateDebugConfiguration;
+					_CreatePkgInfo;
+					_CopyAppExtensionsToBundle;
+					_CopyWatchAppsToBundle;
+					_CopyWatch2AppsToBundle;
+					_GenerateDebugSymbols;
+					_ValidateAppBundle;
+				
+		CreateIpaDependsOn = 
+					_CoreCreateIpa
+				
+		CreateManifestResourceNamesDependsOn = 
+		CscToolExe = smcs
+		CscToolPath = /Library/Frameworks/Xamarin.iOS.framework/Versions/Current/bin
+		CurrentSolutionConfigurationContents = <SolutionConfiguration xmlns=""><ProjectConfiguration Project="{19FBD5DD-B9FE-463B-84AF-0BF57559CDC6}">Debug|iPhoneSimulator</ProjectConfiguration></SolutionConfiguration>
+		DebugSymbols = true
+		DebugType = full
+		DefaultLanguageSourceExtension = .cs
+		DefineConstants = __UNIFIED__;__MOBILE__;__IOS__;$(DefineConstants)
+		DeviceSpecificBuild = $(MtouchDebug)
+		ErrorReport = prompt
+		GenerateTargetFrameworkAttribute = true
+		GetFrameworkPathsDependsOn = 
+		GetReferenceAssemblyPathsDependsOn = 
+		HOME = /Users/colin.dabritz
+		ImplicitlyExpandDesignTimeFacades = true
+		ImplicitlyExpandDesignTimeFacadesDependsOn = 
+					$(ImplicitlyExpandDesignTimeFacadesDependsOn);
+					GetReferenceAssemblyPaths
+				
+		ImportByWildcardAfterMicrosoftCommonTargets = true
+		ImportByWildcardBeforeMicrosoftCommonTargets = true
+		IntermediateOutputPath = $(BaseIntermediateOutputPath)$(PlatformName)\$(Configuration)\
+		IOSDebuggerConnectOverUsb = True
+		IOSDebuggerPort = 10000
+		IOSDebugOverWiFi = False
+		IpaIncludeArtwork = False
+		IPhoneResourcePrefix = Resources
+		IsAppExtension = False
+		IsProductionEnvironment = False
+		IsWatchApp = False
+		LANG = en_US.UTF-8
+		Language = C#
+		LOGNAME = colin.dabritz
+		MSBuildAllProjects = $(MSBuildAllProjects);$(MSBuildProjectFullPath);$(MSBuildToolsPath)\Microsoft.Common.targets
+		MSBuildBinPath = /Library/Frameworks/Mono.framework/Versions/4.2.4/lib/mono/4.5
+		MSBuildExtensionsPath = /Library/Frameworks/Mono.framework/Versions/4.2.4/lib/mono/xbuild
+		MSBuildExtensionsPath32 = /Library/Frameworks/Mono.framework/Versions/4.2.4/lib/mono/xbuild
+		MSBuildExtensionsPath64 = /Library/Frameworks/Mono.framework/Versions/4.2.4/lib/mono/xbuild
+		MSBuildProjectDefaultTargets = Build
+		MSBuildProjectDirectory = /Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample
+		MSBuildProjectExtension = .csproj
+		MSBuildProjectFile = SingleViewExample.csproj
+		MSBuildProjectFullPath = /Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj
+		MSBuildProjectName = SingleViewExample
+		MSBuildThisFile = Microsoft.Common.targets
+		MSBuildThisFileDirectory = /Library/Frameworks/Mono.framework/Versions/4.2.4/lib/mono/4.5/
+		MSBuildThisFileDirectoryNoRoot = Library/Frameworks/Mono.framework/Versions/4.2.4/lib/mono/4.5/
+		MSBuildThisFileExtension = .targets
+		MSBuildThisFileFullPath = /Library/Frameworks/Mono.framework/Versions/4.2.4/lib/mono/4.5/Microsoft.Common.targets
+		MSBuildThisFileName = Microsoft.Common
+		MSBuildToolsPath = /Library/Frameworks/Mono.framework/Versions/4.2.4/lib/mono/4.5
+		MSBuildToolsRoot = /Library/Frameworks/Mono.framework/Versions/4.2.4/lib/mono
+		MSBuildToolsVersion = 4.0
+		MtouchArch = i386
+		MtouchDebug = true
+		MtouchEnableGenericValueTypeSharing = True
+		MtouchExtraArgs = -v -v -v -v
+		MtouchFastDev = False
+		MtouchFloat32 = False
+		MtouchLink = None
+		MtouchNoSymbolStrip = False
+		MtouchProfiling = False
+		MtouchProjectDirectory = $(MSBuildProjectDirectory)
+		MtouchTargetsEnabled = true
+		MtouchUseLlvm = False
+		MtouchUseRefCounting = False
+		MtouchUseSGen = True
+		MtouchUseThumb = False
+		NoCompilerStandardLib = true
+		OnDemandResourcesInitialInstallTags = 
+		OnDemandResourcesPrefetchOrder = 
+		Optimize = false
+		OptimizeLocalizationFilesDependsOn = 
+					_CollectLocalizationFiles;
+					_CoreOptimizeLocalizationFiles;
+					_AfterCoreOptimizeLocalizationFiles
+				
+		OptimizePngImagesDependsOn = 
+					_CollectPngImages;
+					_CoreOptimizePngImages;
+					_AfterCoreOptimizePngImages
+				
+		OptimizePNGs = True
+		OptimizePropertyLists = True
+		OptimizePropertyListsDependsOn = 
+					_CollectPropertyLists;
+					_CoreOptimizePropertyLists;
+					_AfterCoreOptimizePropertyLists
+				
+		OS = Unix
+		OutDir = $(OutputPath)
+		OutputPath = $(OutputPath)\
+		OutputType = Exe
+		PATH = /usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
+		Platform = iPhoneSimulator
+		PlatformName = $(Platform)
+		PostBuildEventDependsOn = 
+		PreBuildEventDependsOn = 
+		PrepareForBuildDependsOn = AssignLinkMetadata
+		PrepareForRunDependsOn = 
+					DeployOutputFiles
+				
+		PrepareResourcesDependsOn = 
+					AssignTargetPaths;
+					SplitResourcesByCulture;
+					CreateManifestResourceNames;
+					CopyNonResxEmbeddedResources;
+					GenerateResources;
+					GenerateSatelliteAssemblies;
+					CompileLicxFiles
+				
+		ProjectDir = $(MSBuildProjectDirectory)\
+		ProjectGuid = {19FBD5DD-B9FE-463B-84AF-0BF57559CDC6}
+		ProjectTypeGuids = {FEACFBD2-3405-455C-9665-78FE426C6842};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}
+		PWD = /Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample
+		RebuildDependsOn = 
+					BeforeRebuild;
+					Clean;
+					$(MSBuildProjectDefaultTargets);
+					AfterRebuild;
+				
+		ResolveAssemblyReferencesDependsOn = $(ResolveAssemblyReferencesDependsOn);_AddCorlibReference
+		ResolveReferencesDependsOn = 
+					_SeparateAppExtensionReferences;
+					_SeparateWatchAppReferences;
+					$(ResolveReferencesDependsOn);
+					ImplicitlyExpandDesignTimeFacades
+				
+		RootNamespace = SingleViewExample
+		SECURITYSESSIONID = 186a7
+		SHELL = /bin/bash
+		SHLVL = 1
+		SkipCopyUnchangedFiles = true
+		SolutionDir = /Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/
+		SolutionExt = .sln
+		SolutionFileName = SingleViewExample.sln
+		SolutionName = SingleViewExample
+		SolutionPath = /Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.sln
+		SSH_AUTH_SOCK = /private/tmp/com.apple.launchd.vdIAuOK6mK/Listeners
+		TargetArchitectures = $(MtouchArch)
+		TargetDir = @(_OutDirItem->'%(FullPath)')
+		TargetExt = .exe
+		TargetFileName = $(TargetName)$(TargetExt)
+		TargetFrameworkIdentifier = Xamarin.iOS
+		TargetFrameworkMoniker = $(TargetFrameworkIdentifier),Version=$(TargetFrameworkVersion)
+		TargetFrameworkMonikerAssemblyAttributesPath = $(IntermediateOutputPath)$(TargetFrameworkMoniker).AssemblyAttribute$(DefaultLanguageSourceExtension)
+		TargetFrameworkMonikerAssemblyAttributeText = 
+		// <autogenerated />
+		[assembly: global::System.Runtime.Versioning.TargetFrameworkAttribute("$(TargetFrameworkMoniker)", FrameworkDisplayName = "$(TargetFrameworkMonikerDisplayName)")]
+				
+		TargetFrameworkVersion = v1.0
+		TargetName = $(AssemblyName)
+		TargetPath = @(_OutDirItem->'%(FullPath)\$(TargetFileName)')
+		TERM = xterm-256color
+		TERM_PROGRAM = Apple_Terminal
+		TERM_PROGRAM_VERSION = 361.1
+		TERM_SESSION_ID = A7DABC82-952D-454A-9396-051F5CC67519
+		TMPDIR = /var/folders/nb/vt88h3f9155cy98pp874gt9rngg912/T/
+		USER = colin.dabritz
+		VisualStudioVersion = 11.0
+		WarningLevel = 4
+		XPC_FLAGS = 0x0
+		XPC_SERVICE_NAME = 0
+		Initial Items:
+		_OutDirItem
+			bin/iPhoneSimulator/Debug/
+		AvailableItemName
+			BundleResource
+		Compile
+			Main.cs
+			AppDelegate.cs
+			Properties/AssemblyInfo.cs
+			ViewController.designer.cs
+			ViewController.cs
+		Content
+			Entitlements.plist
+		FileWrites
+			obj/iPhoneSimulator/Debug/Xamarin.iOS,Version=v1.0.AssemblyAttribute.cs
+		InterfaceDefinition
+			Main.storyboard
+			Resources/LaunchScreen.xib
+		IntermediateAssembly
+			obj/iPhoneSimulator/Debug/SingleViewExample.exe
+		None
+			GettingStarted.Xamarin
+			Info.plist
+		Reference
+			System
+			System.Xml
+			System.Core
+			Xamarin.iOS
 		Building target "_ValidateEssentialProperties" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj" ("/Library/Frameworks/Mono.framework/Versions/4.2.4/lib/mono/4.5/Microsoft.Common.targets").
 		Done building target "_ValidateEssentialProperties" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj" ("/Library/Frameworks/Mono.framework/Versions/4.2.4/lib/mono/4.5/Microsoft.Common.targets").
 		Building target "Build" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.csproj" ("/Library/Frameworks/Mono.framework/Versions/4.2.4/lib/mono/4.5/Microsoft.Common.targets").
@@ -869,6 +1294,119 @@ Building target "Build" in project "/Users/colin.dabritz/Documents/Git/XamarinTe
 Done building target "Build" in project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.sln" ("/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.sln").
 Done building project "/Users/colin.dabritz/Documents/Git/XamarinTest/SingleViewExample/SingleViewExample.sln".
 
+Target performance summary:
+     0.086 ms  _CoreCompileSceneKitAssets                              1 calls
+     0.089 ms  _BeforeCoreCompileSceneKitAssets                        1 calls
+     0.090 ms  _BeforeCompileTextureAtlases                            1 calls
+     0.091 ms  _GenerateBundleName                                     1 calls
+     0.091 ms  _ReadCoreCompileInterfaceDefinitions                    1 calls
+     0.098 ms  _ReadCoreCompileTextureAtlases                          1 calls
+     0.102 ms  _ReadCoreCompileSceneKitAssets                          1 calls
+     0.107 ms  _CoreCompileColladaAssets                               1 calls
+     0.111 ms  _CoreOptimizeLocalizationFiles                          1 calls
+     0.120 ms  GenerateSatelliteAssemblies                             1 calls
+     0.133 ms  _CoreCompileImageAssets                                 1 calls
+     0.138 ms  _PrepareResourceRules                                   1 calls
+     0.147 ms  _SeparateWatchAppReferences                             1 calls
+     0.156 ms  _SeparateAppExtensionReferences                         1 calls
+     0.166 ms  _CoreCompileTextureAtlases                              1 calls
+     0.181 ms  _ReadCompileImageAssets                                 1 calls
+     0.187 ms  SplitProjectReferencesByExistent                        1 calls
+     0.209 ms  _SplitWatchAppReferencesByExistent                      1 calls
+     0.217 ms  _SplitAppExtensionReferencesByExistent                  1 calls
+     0.219 ms  _ValidateEssentialProperties                            1 calls
+     0.233 ms  _CopyWatch2AppsToBundle                                 1 calls
+     0.257 ms  GenerateResources                                       1 calls
+     0.289 ms  _BeforeCoreCompileImageAssets                           1 calls
+     0.337 ms  CreateManifestResourceNames                             1 calls
+     0.370 ms  _CleanUploaded                                          1 calls
+     0.386 ms  _CopyAppExtensionsToBundle                              1 calls
+     0.562 ms  ResolveProjectReferences                                1 calls
+     0.615 ms  _ResolveAppExtensionReferences                          1 calls
+     0.652 ms  _CoreOptimizePngImages                                  1 calls
+     0.678 ms  _ResolveWatchAppReferences                              1 calls
+     0.759 ms  _GetCompileOutputsForClean                              1 calls
+     0.799 ms  _AddCorlibReference                                     1 calls
+     0.814 ms  _CollectLocalizationFiles                               1 calls
+     0.828 ms  _CollectPngImages                                       1 calls
+     1.134 ms  _CreatePkgInfo                                          1 calls
+     1.295 ms  _BeforeCoreCompileInterfaceDefinitions                  1 calls
+     1.476 ms  _GetNativeExecutableName                                1 calls
+     1.541 ms  AssignTargetPaths                                       1 calls
+     1.549 ms  GetCopyToOutputDirectoryItems                           1 calls
+     1.633 ms  _AfterCoreOptimizePropertyLists                         1 calls
+     1.660 ms  CopyFilesMarkedCopyLocal                                1 calls
+     1.730 ms  AssignLinkMetadata                                      1 calls
+     1.829 ms  _ComputeTargetArchitectures                             1 calls
+     1.857 ms  SplitResourcesByCulture                                 1 calls
+     1.874 ms  GenerateTargetFrameworkMonikerAttribute                 1 calls
+     1.961 ms  _CollectBundleResources                                 1 calls
+     2.141 ms  _CollectColladaAssets                                   1 calls
+     2.642 ms  _CreateAssetPackManifest                                1 calls
+     2.775 ms  _CreateDebugSettings                                    1 calls
+     2.805 ms  _ComputeBundleResourceOutputPaths                       1 calls
+     3.133 ms  DeployOutputFiles                                       1 calls
+     3.520 ms  _ValidateAppBundle                                      1 calls
+     3.585 ms  _CollectPropertyLists                                   1 calls
+     4.154 ms  _CopyResourcesToBundle                                  1 calls
+     4.692 ms  _RecordCleanFile                                        1 calls
+     4.753 ms  _CreateDebugConfiguration                               1 calls
+     6.640 ms  _DetectSigningIdentity                                  1 calls
+     7.113 ms  PrepareForBuild                                         1 calls
+     7.395 ms  ImplicitlyExpandDesignTimeFacades                       1 calls
+    12.591 ms  _DetectAppManifest                                      1 calls
+    13.043 ms  ValidateSolutionConfiguration                           1 calls
+    14.450 ms  _CompileAppManifest                                     1 calls
+    14.776 ms  _CoreOptimizePropertyLists                              1 calls
+    16.401 ms  _UnpackLibraryResources                                 1 calls
+    20.114 ms  GetReferenceAssemblyPaths                               1 calls
+    42.106 ms  _DetectSdkLocations                                     1 calls
+    54.800 ms  ResolveAssemblyReferences                               1 calls
+   227.894 ms  CoreCompile                                             1 calls
+   505.456 ms  _CompileToNative                                        1 calls
+  1163.745 ms  _CoreCompileInterfaceDefinitions                        1 calls
+  2341.925 ms  Build                                                   1 calls
+
+Tasks performance summary:
+     0.708 ms  CreateProperty                                          1 calls
+     0.823 ms  AssignCulture                                           1 calls
+     0.858 ms  CallTarget                                              1 calls
+     0.867 ms  FindUnderPath                                           1 calls
+     0.926 ms  ReadLinesFromFile                                       1 calls
+     1.029 ms  CreatePkgInfo                                           1 calls
+     1.230 ms  RemoveDir                                               2 calls
+     1.318 ms  GetNativeExecutableName                                 1 calls
+     1.391 ms  AssignTargetPath                                        3 calls
+     1.395 ms  Warning                                                 1 calls
+     1.757 ms  WriteLinesToFile                                        2 calls
+     1.917 ms  Delete                                                  4 calls
+     2.003 ms  RemoveDuplicates                                        1 calls
+     2.149 ms  MakeDir                                                 1 calls
+     2.539 ms  CreateAssetPackManifest                                 1 calls
+     2.587 ms  FindAppConfigFile                                       1 calls
+     2.662 ms  ComputeBundleResourceOutputPaths                        1 calls
+     2.669 ms  CreateDebugSettings                                     1 calls
+     3.418 ms  ValidateAppBundleTask                                   1 calls
+     3.669 ms  SmartCopy                                               1 calls
+     3.885 ms  CollectBundleResources                                  2 calls
+     4.187 ms  Copy                                                    3 calls
+     4.642 ms  CreateDebugConfiguration                                1 calls
+     4.821 ms  CreateItem                                              8 calls
+     6.379 ms  DetectSigningIdentity                                   1 calls
+    10.815 ms  Message                                                 2 calls
+    11.059 ms  GetReferenceAssemblyPaths                               1 calls
+    12.322 ms  FindItemWithLogicalName                                 1 calls
+    12.775 ms  CompileAppManifest                                      1 calls
+    14.406 ms  OptimizePropertyList                                    1 calls
+    16.226 ms  UnpackLibraryResources                                  1 calls
+    20.900 ms  WriteItemsToFile                                        1 calls
+    41.980 ms  DetectSdkLocations                                      1 calls
+    53.470 ms  ResolveAssemblyReference                                1 calls
+   227.058 ms  Csc                                                     1 calls
+   504.198 ms  MTouch                                                  1 calls
+  1141.954 ms  IBTool                                                  1 calls
+  2336.993 ms  MSBuild                                                 1 calls
+
 Build succeeded.
 
 Warnings:
@@ -883,4 +1421,4 @@ Warnings:
 	 2 Warning(s)
 	 0 Error(s)
 
-Time Elapsed 00:00:01.6713070
+Time Elapsed 00:00:02.6471870

@@ -1,4 +1,5 @@
-﻿Building Solution: SingleViewExample (Debug|iPhoneSimulator)
+﻿
+Building Solution: SingleViewExample (Debug|iPhoneSimulator)
 
 Building: MissingDependencyLibrary (Debug|iPhoneSimulator)
 

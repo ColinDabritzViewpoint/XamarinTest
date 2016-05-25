@@ -11,7 +11,7 @@ Steps
   * Xamarin Studio on Mac
   * Command line
     * Working directory is same as solution directory
-	* /usr/local/bin/xbuild SingleViewExample.sln /p:Configuration="Debug" /p:Platform="iPhoneSimulator" /verbosity:detailed
+	* /usr/local/bin/xbuild SingleViewExample.sln /p:Configuration="Debug" /p:Platform="iPhoneSimulator" /verbosity:diagnostic
 * Added "MissingDependencyLibrary"
   * portable library (iOS, Android, Windows)
   * Has solution GUID FD8664BE-1F5A-4B55-A9CD-E1B3DF9B7EAA
