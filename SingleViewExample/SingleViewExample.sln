@@ -4,6 +4,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 14.0.25123.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SingleViewExample", "SingleViewExample.csproj", "{19FBD5DD-B9FE-463B-84AF-0BF57559CDC6}"
+	ProjectSection(ProjectDependencies) = postProject
+		{FD8664BE-1F5A-4B55-A9CD-E1B3DF9B7EAA} = {FD8664BE-1F5A-4B55-A9CD-E1B3DF9B7EAA}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MissingDependencyLibrary", "..\MissingDependencyLibrary\MissingDependencyLibrary.csproj", "{FD8664BE-1F5A-4B55-A9CD-E1B3DF9B7EAA}"
 EndProject
